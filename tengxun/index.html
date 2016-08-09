@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link href="css/0.css" rel="stylesheet" type="text/css" id="css">
+    <script src="js/mTween.js"></script>
     <script src="js/jquery-1.11.1.js"></script>
     <script src="js/0.js" id="js"></script>
     <style type="text/css">
@@ -27,7 +28,7 @@
         .center #list1{ width: 216px;position: absolute;left: 380px;top:16px;}
         .center #list1 li{border-radius: 50%;width:14px;height: 14px;display: inline-block;background-color: white;margin-right: 22px;opacity: 0.3 }
         .center #list1 .list1_active{background-color: white;opacity: 1}
-        .center
+
         .center_top p{position: absolute;top:28px;right:17px;width: 225px;line-height: 16px;font-size: 14px;color: white;}
         .center_top a{margin-right: 7px;display: inline-block;width: 18px;height: 17px;vertical-align: middle;position: relative;top:-1px;}
         .center_top a:nth-of-type(1){background: url("image/piclogo.png") no-repeat 0 0}
@@ -101,11 +102,8 @@
             $(this).attr("class","active");
             $('.center').children().css('display','none').eq($(this).index()).css('display','block');
         })
-
-
         $("#list1").children().click(function(){
 
-//            $('.tab').children().css('display','none').eq($(this).index()).css('display','block');
             if($(this).index()==0){
                 $("#css").attr("href","css/0.css");
                 $("#div00").html('<img src="image/first/f01.png" alt=""><img src="image/first/f02.png" alt=""><img src="image/first/f03.png" alt=""><img src="image/first/f04.png" alt=""><img src="image/first/f05.png" alt="">');
@@ -120,11 +118,38 @@
                     f1();
                 },80)
             }
+            if($(this).index()==2){
+                $("#css").attr("href","css/2.css");
+                $("#div00").html('<img src="image/two/two_1.png" alt="" class="two_img1"/><img src="image/two/two_2.png" alt="" class="two_img2"/><div class="smoke1"><img src="image/two/smoke.png" alt=""><img src="image/two/smoke.png" alt=""><img src="image/two/smoke.png" alt=""></div><div class="smoke2"><img src="image/two/smoke.png" alt=""><img src="image/two/smoke.png" alt=""><img src="image/two/smoke.png" alt=""></div><div class="smoke3"><img src="image/two/smoke.png" alt=""><img src="image/two/smoke.png" alt=""><img src="image/two/smoke.png" alt=""></div><img src="image/two/two_3.png" alt="" class="two_img3"><div class="arrow"><img src="image/two/two_arrow.png" class="arrow1"><img src="image/two/two_arrow.png" class="arrow2"><img src="image/two/two_arrow.png" class="arrow3"><img src="image/two/two_arrow.png" class="arrow4"><img src="image/two/two_arrow.png" class="arrow5"><img src="image/two/two_arrow.png" class="arrow6"><img src="image/two/two_arrow.png" class="arrow7"></div><div class="soldiers"><img src="image/two/two_5.png" class="soldiers_left"><img src="image/two/two_5.png" class="soldiers_right"><img src="image/two/two_arrow.png" class="soldiers_arrow1"><img src="image/two/two_arrow.png" class="soldiers_arrow2"><img src="image/two/two_7.png" class="mouth"></div><p class="two_2008" style="opacity: 0">2008</p><p class="two_text" style="opacity: 0">腾讯着手建立的自研安全防御体系初具规模</p>')
+                setTimeout(function(){
+                    f2();
+                },80)
+            }
+            if($(this).index()==3){
+                $("#css").attr("href","css/3.css");
+                $("#div00").html("<img src='image/three/window.png' alt=''class='three_window'><img src='image/three/flower.png' alt='' class='three_flower'><img src='image/three/lamp.png' alt='' class='three_lamp'><img src='image/three/sofa.png' alt='' class='three_sofa'><img src='image/three/girl.png' alt='' class='three_girl'><img src='image/three/three6.png' alt='' class='three6'><div class='three6_mask1'></div><div class='three6_mask2'></div><div class='three6_mask3'></div><div id='small_logo'><img src='image/three/three_1.png'><img src='image/three/three_2.png'><img src='image/three/three_3.png'><img src='image/three/three_4.png'><img src='image/three/three_5.png'><img src='image/three/three_2.png'></div><p class='three_2010' style='opacity: 0'>2010</p><p class='three_text' style='opacity: 0'>全方位多点防御体系启用，深入用户各QQ相关沟通场景</p>")
+            setTimeout(function(){
+                f3();
+            },60)
+            }
+            if($(this).index()==4){
+                $("#css").attr("href","css/4.css");
+                $("#div00").html('<img src="image/four/four_mountain.png" class="four_mountain"><img src="image/four/four_penguin.png" class="four_penguin"><ul class="hedge"></ul><div class="diamond"></div><img src="image/four/four_sweat.png" class="four_sweat"><div class="man_center"><img src="image/four/four_man3.png" class="center_man3"><img src="image/four/four_shade.png" class="center_man4"><img src="image/four/four_man1.png"  class="center_man1"><img src="image/four/four_man2.png" class="center_man2"></div><div class="man_left"><img src="image/four/four_flagpole.png" class="leftpore"><img src="image/four/four_leftman.png" class="leftman"><img src="image/four/four_leftflag.png" class="leftflag"></div><div class="man_right"><img src="image/four/four_flagpole.png" class="rightpore"><img src="image/four/four_rightman.png" class="rightman"><img src="image/four/four_rightflag.png" class="rightflag"></div>')
+                setTimeout(function(){
+                    f4();
+                },80)
+            }
+            if($(this).index()==5){
+                $("#css").attr("href","css/5.css");
+                $("#div00").html('<img src="image/five/five_mountain.png" class="five_mountain"><img src="image/five/five_bg1.png" class="five_bg1"><img src="image/five/five_bg2.png" class="five_bg2"><img src="image/logo.png" class="five_logo"><img src="image/five/five_smalllogo.png" class="five_smalllogo">')
+                setTimeout(function(){
+                    f5();
+                },80)
+            }
             $('#list1').children().attr('class','');
             $(this).attr('class','list1_active');
         });
         f0();
-
     })
 </script>
 </body>

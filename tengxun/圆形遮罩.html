@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        *{margin: 0;padding: 0}
+        img{transform: rotateZ(-180deg)}
+    </style>
+</head>
+<body style="background-color: #007bac">
+<div>
+    <img src="image/09999.png" alt="" style="">
+ <!--<div style="width: 9px;height: 9px;border-radius: 50%;border: 1px solid red;z-index:5;color: white;position:absolute;top:413px;left:426px;"></div>-->
+</div>
+<script>
+    var img=document.getElementsByTagName("img")[0];
+    var a=-180;
+    var timer;
+    timer=setInterval(function(){
+        a=a+5;
+        img.style.transformOrigin="415px 424px";
+        img.style.transform="rotateZ("+a+"deg)";
+        if(a==0){ clearInterval(timer)}
+    },16)
+
+
+</script>
+</body>
+</html>
