@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .hedge{position: absolute;top:300px;left:100px;list-style: none}
+        .hedge li{float:left;margin-right: 12px;display: block;opacity: 0;transition:all 0.2s;position: absolute;top:0;left:0;}
+        .diamond{height: 12px;position: absolute;top:473px;left:87px;width: 0px;background-color: #09c}
+    </style>
+</head>
+<body style="background-color: #007bac">
+<div class="diamond"></div>
+<ul class="hedge">
+</ul>
+<script>
+    var hedge=document.getElementsByClassName('hedge')[0];
+    var diamond=document.getElementsByClassName("diamond")[0];
+    for(var i=0;i<18;i++){
+        var li=document.createElement('li');
+        var img=document.createElement('img');
+        li.appendChild(img);
+        li.style.left=i*29+"px";
+        img.src='image/four/four_hedge.png';
+        hedge.appendChild(li)
+    }
+    var n=0;
+    var x=0;
+    var timer;
+    var timer1;
+    timer=setInterval(function(){
+        hedge.children[n].style.top=130+"px";
+        hedge.children[n].style.opacity=1;
+        n++;
+        if(n>=18){
+            clearInterval(timer);
+        }
+    },30);
+    setTimeout(function(){
+        timer1=setInterval(function(){
+            x+=9;
+            diamond.style.width=x+"px";
+            if(x>534){
+                clearInterval(timer1)
+            }
+        },10)
+    },200)
+</script>
+</body>
+</html>
