@@ -1,0 +1,513 @@
+/**
+ * Created by fullrich_UI on 2016/3/21.
+ * css about box
+ */
+@charset "utf-8";
+
+/* 导航栏 */
+/*.banner1 {
+    margin-top: 4.1295em;
+}*/
+.news-pic img {
+    width: 100%;
+    height: 100%;
+    margin-left: -10%;
+    padding: 1em 0;
+}
+/* 产品分类banner */
+
+.banner-l {
+  width: 40%;
+  padding: 8em 10% 0 0;
+ }
+ .banner-l1 {
+  width: 40%;
+  padding: 6em 10% 0 0;
+ }
+ .banner-r {
+  width: 50%;
+  margin: 0 auto;
+ }
+
+
+/* 新闻详情 */
+.content-news p {
+    color: #666;
+    padding: 1em 0;
+    width: 100%;
+    height: auto;
+    font-size: 1.1em;
+    line-height: 2em;
+    text-align: left;
+    overflow: hidden;
+    text-indent: 30px;
+}
+/* 招聘详情 */
+.content-job {
+    color: #666;
+    width: 100%;
+    height: auto;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    text-align: left;
+    overflow: hidden;
+}
+.content{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.content1{
+    width: 100%;
+    height: auto;
+}
+/* 祥付宝 */
+.xfb {
+    width: 80%;
+    margin: 2em 5% 0 15%;
+    position: relative;
+}
+.douhao {
+    width: 2.2em;
+    height: 2.2em;
+    position: absolute;
+    top: -0.3em;
+    left: -2.5em;
+    background: url('../images/product-detail/douhao.png');
+    background-size: 100% 100%;
+}
+/* 4个图 */
+.produc1 ul {
+    width: 100%;
+    margin-left: -4em;
+}
+.produc1 ul li {
+    float: left;
+    width: 24.8%;
+    text-align: center;
+}
+.produc1 .p1 {
+    margin-left: -4em;
+}
+.produc1 .p2,.produc1 .p3 {
+    margin: 0 1.5em;
+}
+.produc1 .p4 {
+    margin-right: -2.5em;
+}
+/* sub-menu */
+.sub-top {
+    margin-top: 0;
+}
+
+
+/* ========= product ================================*/
+.content-p {
+    width: 100%;
+    height: 24.285714em;
+    overflow: hidden;
+}
+
+ /* 三角*/
+ .san1 {
+    position: relative;
+ }
+ .san {
+    width: 2em;
+    height: 2em;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 5em;
+    background: url('../images/san_03.png') no-repeat;
+    z-index: 9;
+ }
+ .san-bg {
+    background: url('../images/san2_03.png') no-repeat;
+ }
+ .center{
+    width: 990px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+ }
+ .center1{
+    width: 990px;
+    height: auto;
+    margin: 0 auto;
+ }
+.proimg{
+    width: 100%;
+}
+.title{
+    line-height: 2em;
+    font-size: 2em;
+    color: #000;
+    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
+}
+.title div span{
+    font-size: 0.4em;
+    color: #e60012;
+    font-weight: 500;
+}
+.center-left{
+    width: 30%;
+    padding-left:  9.5%;
+    padding-right: 9.5%;
+}
+.center-left1{
+    width: 50%;
+    padding: 1.5em 0 0 0;
+}
+.center-left2{
+    width: 40%;
+    padding: 0 10% 0 0;
+}
+.center-left3{
+    width: 50%;
+    padding: 0;
+}
+.center-left img{
+    width: 100%;
+    height: 100%;
+}
+.center-right{
+    width: 40%;
+    padding: 5em 10% 0 0;
+}
+.center-right1{
+    width: 50%;
+    padding: 0;
+}
+
+.center-title{
+    line-height: 2em;
+    font-size: 1.8em;
+}
+.center-content{
+    line-height: 1.75em;
+    font-size: 1.1em;
+}
+.center-content a:hover{
+   color: #e60012;
+}
+.last0{
+   padding-top: 3.3em;
+}
+.last1{
+    display: none;
+}
+.n-more{
+    display: none;
+    font-size: 0.9em;
+    color: #e60012;
+    padding-top: 0.5em;
+}
+.center-news-left{
+    width: 40%;
+    height: auto;
+    overflow: hidden;
+}
+.center-news-right{
+    width:56%;
+    height: auto;
+    overflow: hidden;
+}
+.big-news{
+    width: 100%;
+    height: 26em;
+    position: relative;
+}
+.big-news-img{
+    width: 100%;
+    height: 18.5em;
+    position: absolute;
+    z-index: 1;
+}
+.big-news-content{
+    width: 100%;
+    height: 7.5em;
+    padding: 0;
+    background-color: #e60012;
+    position: absolute;
+    z-index: 9;
+    bottom: 0;
+    left: 0;
+}
+.big-news-content-date{
+    width: 92%;
+    height: 2em;
+    line-height: 2em;
+    font-size: 1.1em;
+    color: #ffffff;
+    text-align: left;
+    padding: 0 4%;
+}
+.big-news-content-content{
+    width: 92%;
+    height: auto;
+    line-height: 1.5em;
+    font-size: 1.1em;
+    color: #ffffff;
+    text-align: left;
+    padding: 0 4%;
+}
+.big-news-title{
+    width: 92%;
+    height: 2em;
+    line-height: 2em;
+    font-size: 1.2em;
+    color: #ffffff;
+    padding: 0 4%;
+    position: absolute;
+    z-index: 1;
+    bottom: 6em;
+    left: 0;
+}
+.small-news{
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+    padding: 2em 0;
+}
+.small-news-item{
+    width: 47%;
+    height: auto;
+    overflow: hidden;
+}
+.small-news-item-img{
+    width: 100%;
+    height: 9em;
+}
+.small-news-item-title{
+    width: 100%;
+    height: 1.5em;
+    line-height: 1.5em;
+    text-align: left;
+    font-size: 1.13em;
+    cursor: pointer;
+}
+.small-news-item-title:hover{
+    color: #e60012;
+}
+.news-list,.news-list1,.news-list1 li,.ryzz{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+    /* company licheng*/
+.gslc .gslc-l {
+    width: 10%;
+}
+.gslc .gslc-r {
+    margin-left: 12%;
+}
+.gslc .gslc-r li {
+    border-left: 3px solid #ddd;
+    padding-left: 6%;
+    width: 88%;
+}
+.gslc .gslc-r li.last {
+    border-left: 0;
+}
+.gslc li span{
+    display: inline-block;
+    height:  2.8em;
+    line-height: 2.8em;
+    font-size: 1.1em;
+    color: #666;
+}
+.gslc li span.fc3 {
+    color: #e60012;
+}
+.gslc li span.cicrle {
+    position: absolute;
+    left: 11%;
+    z-index: 2;
+    top: 0.8em;
+}
+.gslc li span.cicrle1 {
+    position: absolute;
+    left: 11.5%;
+    z-index: 2;
+    top: 1.05em;
+}
+.gslc li span.cicrle2 {
+    position: absolute;
+    left: 11.2%;
+    z-index: 2;
+}
+/*gongsizizhi*/
+
+.ryzz li{
+    float: left;
+    width: 22%;
+    margin-right: 3.9%;
+}
+.ryzz li.last {
+    margin-right: 0;
+}
+.ryzz li img {
+    width: 100%;
+    height: 100%;
+}
+.ryzz li p {
+    text-align: center;
+    font-size: 1em;
+    height: 2em;
+    line-height: 2em;
+    padding-bottom: 2em;
+    color: #666;
+}
+
+.news-list li{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    line-height: 1.45em;
+    border-bottom: 1px solid #ddd;
+}
+.bgcircle p {
+    padding: 1.3em 0;
+}
+.news-list-title{
+    width:70%;
+    height: auto;
+    overflow: hidden;
+    font-size: 1.16em;
+    position: relative;
+    cursor: pointer;
+}
+.news-list-title:hover{
+    color: #e60012;
+}
+.news-list-date{
+    width:25%;
+    height: auto;
+    overflow: hidden;
+    font-size: 0.95em;
+    color: #999;
+    line-height: 2em;
+}
+.news-list-date1{
+    width:25%;
+    height: auto;
+    overflow: hidden;
+    font-size: 0.8em;
+    color: #999;
+    line-height: 1.8em;
+}
+.icon-news{
+    width: 1.7em;
+    height:1.1em;
+    display: inline-block;
+    padding: 0 0.5em;
+    border-radius: 3em;
+    background: url("../images/index/news-5.png") no-repeat center;
+    background-size: contain;
+}
+.icon-hot{
+    width: 1.7em;
+    height:1.1em;
+    display: inline-block;
+    padding: 0 0.5em;
+    border-radius: 3em;
+    background: url("../images/index/news-6.png") no-repeat center;
+    background-size: contain;
+}
+/* mobile news */
+.mobile-news-list-left0{
+    width: 28%;
+    height: auto;
+    overflow: hidden;
+}
+.mobile-news-list-left{
+    width: 28%;
+    height: auto;
+    overflow: hidden;
+}
+.mobile-news-list-right0 {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.mobile-news-list-right {
+    width: 69%;
+    height: auto;
+    overflow: hidden;
+}
+.mobile-news-list-right-title{
+    width: 73%;
+    height: 1.5em;
+    line-height: 1.5em;
+    overflow: hidden;
+    font-size: 1.15em;
+    display: inline-block;
+}
+.mobile-news-list-right0 span {
+    width: 27%;
+    display: inline-block;
+    padding-top: 0.2em;
+}
+.mobile-news-list-right-cont{
+    width: 100%;
+    height: 3em;
+    line-height:1.5em;
+    overflow: hidden;
+    font-size: 0.85em;
+}
+.new-mobile{
+    display: none;
+}
+.partner-item{
+    width: 14.9%;
+    height: auto;
+    overflow: hidden;
+    padding: 0.5em 2.5%;
+}
+.last-partner{
+    display: none;
+}
+.join div{
+    margin-right: 3.3em;
+    float: left;
+    line-height: 1.8em;
+}
+.join div.last{
+    margin-right: 0;
+}
+.job div{
+    width: 33%;
+    padding:0.5em 0;
+}
+.job div.last{
+    text-align: right;
+}
+
+.circle{
+    width: 6em;
+    height: 6em;
+}
+.code2{
+    width: 5em;
+    height: 5em;
+}
+.sm{
+    width: 13%;
+}
+
+
+/* 在线申请 */
+.wp {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* 显示或隐藏 */
+.product-m {
+        display: none;
+}

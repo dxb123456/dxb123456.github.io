@@ -1,0 +1,212 @@
+/*
+* @Author: Administrator
+* @Date:   2016-04-09 11:34:26
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-04-12 17:10:59
+*/
+
+ /* 产品banner */
+
+ .p-pd {
+   padding: 1.5em 0 0 0;
+ }
+ .p-mb {
+  padding: 2em 0 6.5em;
+ }
+ .ti {
+  text-indent: 2em;
+ }
+ .p-ml1 {
+  margin-left: 1.6em;
+ }
+ .p-ml2 {
+  margin-left: 2.4em;
+ }
+ .banner-l {
+  width: 40%;
+  padding: 5em 10% 0 0;
+ }
+ .banner-r {
+  width: 50%;
+  margin: 0 auto;
+ }
+ .mobile {
+  display: none;
+ }
+@media screen and (max-width:768px) {
+  .pc {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .banner-l {
+    width: 80%;
+    padding: 3em 10% 0 ;
+  }
+  .p-ml1 {
+    margin-left: 2.3em;
+  }
+  .banner-r {
+    width: 60%;
+    margin: 0 20%;
+  }
+}
+
+@media screen and (max-width:468px) {
+  .banner-r {
+    width: 70%;
+    margin: 0 15%;
+  }
+}
+
+/* 预付卡系统 */
+.superiority2 div {
+  width: 100%;
+  height: auto;
+}
+.superiority2 .superiorityContent {
+  width: 100%;
+  font-size: 1.2em;
+  line-height: 2em;
+  color: #666;
+  text-align: left;
+  padding: 0.5em 0;
+}
+.superiority2 .superiorityContent1 {
+  width: 95%;
+  margin-left:5%;
+}
+.superiority2 div div ol li{
+    overflow: visible;
+    line-height: 1.3em;
+    text-align: left;
+    list-style-image: url("../images/product/dian.png");
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #666;
+}
+.maxDiv {
+  width: 100%;
+}
+.maxDiv li {
+  width: 20%;
+  float: left;
+}
+.maxDiv li>div {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  padding: 2em 0;
+}
+.font_color {
+  color: #666;
+  padding-top: 0.8em;
+}
+@media screen and (max-width:468px) {
+  .maxDiv li {
+  width: 50%;
+  }
+  .pro3 img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* 互联网金融系统 */
+.usability ul {
+  padding-top: 1.5em;
+}
+.usability ul li{
+    overflow: visible;
+    line-height: 1.8em;
+    text-align: left;
+    list-style-image: url("../images/product/dian.png");
+    list-style-position: inside;
+    font-size: 1.1em;
+    color: #666;
+}
+.pro2 {
+  width: 100%;
+}
+.pro2 li {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+.pro2 li p {
+  width: 60%;
+  margin: 0 20%;
+  padding-top: 1.5em;
+  font-size: 1.1em;
+  line-height: 1.4em;
+  color: #666;
+}
+@media screen and (max-width:468px) {
+  .pro2 li {
+    width: 50%;
+  }
+  .pro2 li img {
+    width: 60%;
+    margin: 0 20%;
+  }
+  .pro2 li p {
+    width: 90%;
+    margin: 0 5%;
+    padding-bottom: 1em;
+  }
+}
+
+/* 移动支付系统 */
+
+.superiority2 ul li,.usability2 ul li{
+    overflow: visible;
+    line-height: 2em;
+    text-align: left;
+    list-style-image: url("../images/product/dian.png");
+    list-style-position: inside;
+    font-size: 1.12em;
+    color: #666;
+}
+
+/* 备份金系统 */
+
+.pro5 img{
+   width: 48%;
+   height: auto;
+   margin: 0 1%;
+   padding-top: 1.5em;
+}
+.pro5-1 img {
+  width: 60%;
+  margin: 0 20%;
+  padding-top: 1.5em;
+}
+@media screen and (max-width:468px) {
+  .pro5 img{
+   width: 90%;
+   height: auto;
+   margin: 1em 5%;
+}
+.pro5-1 img {
+  width: 90%;
+  margin: 0 5%;
+}
+}
+
+/* 风控反洗钱系统 */
+.pro6 img{
+   width: 60%;
+  margin: 0 20%;
+  padding-top: 1.5em;
+
+}
+@media screen and (max-width:468px) {
+  .pro6 img{
+    width: 90%;
+    margin: 0 5%;
+
+
+  }
+}
+

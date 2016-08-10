@@ -1,0 +1,526 @@
+/**
+ * Created by fullrich_UI on on 2016/3/21.
+ * css about basic tag include font, height, padding ...
+ */
+
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family:"微软雅黑", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-user-select: none;
+    list-style: none;
+
+}
+
+div
+{
+    outline:0 !important;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    position:relative;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    border: none;
+}
+a:link{
+    border: none;
+    text-decoration:none;
+}
+a:visited {
+    border:none;
+    text-decoration:none;
+}
+a:hover {
+    border:none;
+    text-decoration:none;
+}
+ul,li{
+    list-style: none;
+}
+input,textarea{
+    -webkit-user-select:text;
+    text-align: left;
+    padding-left: 3px;
+}
+// 上下这两个可以让input框在手机端填写
+table{
+    table-layout:fixed;
+}
+i {
+    font-style: normal;
+}
+/* 清除浮动*/
+.qf {
+   *zoom:1;
+}
+.qf:after {
+  content:'';
+  display:table;
+  clear:both;
+}
+.img-wh{
+    width: 100%;
+    height: 100%;
+}
+.tid{
+    text-indent: 30px;
+}
+.change{
+    cursor: pointer;
+}
+.change:hover{
+    color: #e60012;
+}
+.change1{
+    cursor: pointer;
+}
+.box-shadow{
+    -webkit-box-shadow:inset 0 1px 4px #B9B9B9;
+    -moz-box-shadow:inset 0 1px 4px #B9B9B9;
+    box-shadow:inset 0 1px 4px #B9B9B9;
+}
+.box-shadow1{
+    -moz-box-shadow: 1px 1px 1px #B9B9B9;
+    -webkit-box-shadow: 1px 1px 1px #B9B9B9;
+    box-shadow: 1px 1px 1px #B9B9B9;
+    /* For IE 8 */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#B9B9B9')";
+    /* For IE 5.5 - 7 */
+    filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#B9B9B9')";
+}
+.dpb {
+    display: block;
+}
+.dpi {
+    display: inline-block;
+}
+.dpn {
+    display: none;
+}
+.single {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* pc news  3hang */
+.line3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+/* ========= add base  ================================*/
+
+
+/* ========= text ellipsis ================================*/
+.ut-s
+{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
+    word-break: break-all;
+}
+.fw{
+    font-weight: 300;
+}
+.fwn {
+    font-weight: normal;
+}
+/* ========= position ====================================*/
+.abs{
+    position: absolute;
+}
+.rel{
+    position: relative;
+}
+.fixed{
+    position: fixed;
+}
+.bl{
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+}
+img {
+    vertical-align: top;
+}
+/* ========= overflow =====================================*/
+.over{
+    overflow: hidden;
+}
+
+/* ========= float =======================================*/
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+
+/* ========= text-align ==================================*/
+.txt-l{
+    text-align: left;
+}
+.txt-r{
+    text-align: right;
+}
+.txt-c{
+    text-align: center;
+}
+
+/* ========= line-height =================================*/
+.lh0{
+    line-height: 1em;
+}
+.lh1{
+    line-height:2em;
+}
+.lh2{
+    line-height: 3em;
+}
+.lh3{
+    line-height: 1.5em;
+}
+
+/* ========= font-size ===================================*/
+h1{
+    line-height:1em;
+    font-size: 3em;
+}
+h2{
+    line-height:2em;
+    font-size: 2.35em;
+}
+h3{
+    line-height:2em;
+    font-size: 2em;
+}
+
+.fs0{
+    font-size: 1.18em;
+}
+.fs1{
+    font-size: 1.5em;
+}
+.fs2{
+    font-size: 2em;
+}
+.fs3{
+    font-size: 3em;
+}
+.fs4{
+    font-size: 1em;
+}
+.fs5{
+    font-size: 0.95em;
+}
+.fs6{
+    font-size: 1.65em;
+    font-weight: 300;
+}
+.fs7{
+    font-size: 1.1em;
+}
+.fs8{
+    font-size: 1.2em;
+}
+.fw2 {
+    font-weight: 400;
+}
+/* ========= height ======================================*/
+.hauto{
+    height: auto;
+}
+
+/* ========= width =======================================*/
+.wall{
+    width:100%;
+}
+.w0{
+    width: 15%;
+}
+.w1{
+    width: 65%;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%
+}
+.w2{
+    width: 70%
+}
+.w3{
+    width: 50%
+}
+.w4{
+    width: 85%
+}
+.w5 {
+    width: 40%;
+}
+.w6 {
+    width: 53%;
+}
+.w7 {
+    width: 80%;
+}
+.w8 {
+    width: 23%;
+}
+/* ========= padding =====================================*/
+.pd0{
+    padding:0.65em 1.1em;
+}
+.pd1{
+    padding: 0 1em;
+}
+.pd2{
+    padding: 2em 0;
+}
+.pd3{
+    padding:0.55em 0.5em 0;
+}
+.pd4{
+    padding: 2em 0;
+}
+.pd5{
+    padding:4em 0 0 0;
+}
+.pd6{
+    padding: 1.5em 0 0 0;
+}
+.pd7{
+    padding: 1em 0;
+}
+.pd8{
+    padding: 0 0 1em 0;
+}
+.pd9{
+    padding: 1em 0 0 0;
+}
+.pd10{
+    padding: 0 0 2.8em 0;
+}
+.pd11{
+    padding: 0 0 10em 0;
+}
+.pd12 {
+    padding: 0;
+}
+.pd12 {
+    padding: 2em 0 0 0;
+}
+.pd13 {
+    padding:  0 0 2em 0;
+}
+.pd14 {
+    padding: 2em 0 0 0;
+}
+.pd15 {
+    padding: 0.5em 0;
+}
+
+/* submenu */
+.pd16 {
+    padding-top: 3em!important;
+}
+.pd17 {
+    padding-top: 0.5em;
+}
+/* job_list  工作人数 在手机端变小 */
+.pd18 {
+    padding-left: 4.5em;
+}
+
+/* ========= margin ======================================*/
+.mar0{
+    margin: 0 auto;
+}
+.mar1 {
+    margin: 0.5em 0;
+}
+.mar-t0{
+    margin-top: 0.5em;
+}
+.mar-t1{
+    margin-top: 1.5em;
+}
+.mar-t2{
+    margin-top: 3.5em;
+}
+.mar-t3{
+    margin-top: 1em;
+}
+.mar-b0{
+    margin-bottom: 2em;
+}
+.mar-b1{
+    margin-bottom: 0.5em;
+}
+.mar-r0{
+    margin-right: 10%;
+}
+
+.mar-r1{
+    margin-right: 2%;
+}
+.mar-r2{
+    margin-right: 0.5em;
+}
+.mar-r3{
+    margin-right: 5%;
+}
+.mar-l0{
+    margin-left: 3%;
+}
+
+
+
+/* ========= color =======================================*/
+.fc0{
+    color: #ffffff;
+}
+.fc1{
+    color: #000000;
+}
+.fc2{
+    color: #666666;
+}
+.fc3{
+    color: #e60012;
+}
+.fc4{
+    color: #EE3A3A;
+}
+.fc5 {
+    color: #595959;
+}
+.fc6 {
+    color: #333333;
+}
+.fc7 {
+    color: #545454;
+}
+.fc8 {
+    color: #ffffff;
+}
+.fc9 {
+    color: #999999;
+}
+/* ========= background ==================================*/
+.bgc0 {
+    background-color: #F7F7F7 ;
+}
+.bgc1{
+    background-color: #ffffff;
+}
+.bgc2{
+    background-color: #f1f1f1;
+}
+.bgc3{
+    background-color: #F6F6F6;
+}
+.bgc4{
+    background-color: #ECF1F7;
+}
+.bgc5{
+    background: rgba(0, 0, 0, 0.65);
+}
+.bgc6{
+    background-color: #EBF3F5;
+}
+.bgc7{
+    background-color: #F8F8F8;
+}
+.bgc8{
+    background-color: #F3F3E5;
+}
+.bgc9{
+    background: rgba(0, 0, 0, 0.6);
+}
+.bgc10 {
+    background-color: #282828 ;
+}
+.bglogin{
+    background: url("../images/index/login.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.bgcircle{
+    background: url("../images/index/news-4.png") no-repeat left center;
+    background-size: 2em;
+}
+.bgnews{
+    background: url("../images/news/new_0.png") no-repeat left center;
+    background-size: 100% 100%;
+}
+.bgcom{
+    background: url("../images/company/con_bg.png") no-repeat left center;
+    background-size: cover;
+}
+.bgjob{
+    background: url("../images/company/job.jpg") no-repeat top center;
+    background-size: 100% 100%;
+}
+.bgxfb{
+    background: url("../images/product-detail/bg-xfb.png") no-repeat left center;
+    background-size: cover;
+}
+.bgdsf{
+    background: url("../images/product-classification/product-classification.png") no-repeat left center;
+    background-size: 100% 100%;
+}
+/* ========= border ======================================*/
+.bd-l{
+    border-left: 1px solid;
+}
+.bd-r{
+    border-right: 1px solid;
+}
+.bd-top{
+    border-top: 1px solid;
+}
+.bd-bottom{
+    border-bottom: 1px solid;
+}
+.bl {
+    border-left: 1px solid #ddd;
+}
+.br{
+    border-right: 1px solid #ddd;
+}
+.bt{
+    border-top: 1px solid #ddd;
+}
+.bd{
+    border-bottom: 1px solid #ddd;
+}
+.bd2{
+    border-bottom: 2px solid #ddd;
+}
+.brn {
+    border-right: none!important;
+}
+.bdn {
+    border-bottom: none!important;
+}
+// company
+.bdl2 {
+    border-left: 2px solid #ddd;
+}
+
+/* ========= border-radius ===============================*/
+.br-all{
+
+}
+

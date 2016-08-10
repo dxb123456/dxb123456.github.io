@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<head lang="zh-cn">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>北京丰瑞祥技术股份有限公司</title>
+    <meta name="viewport" content=" width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link href="../images/lg.png" type="image/x-icon" rel="shortcut icon" />
+    <link type="text/css" rel="stylesheet" href="../css/base.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/box.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/control.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/banner.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/media.css"/>
+    <script src="../js/jquery-1.7.2.min.js" ></script>
+    <script>
+        //control text length
+        function csubstr(str,len){
+            if(str.length>len){
+                return str.substring(0,len)+"...";
+            }else{
+                return str;
+            }
+        }
+
+        // $(function(){
+        //     var windowWidth = $(window).width();
+        //     console.log(windowWidth);
+        // });
+    </script>
+
+</head>
+<body>
+   <!-- ================== header ===================================-->
+    <div class="header hauto over bgc1">
+        <!-- nav -->
+        <div class="nav box-shadow1">
+            <ul class='qf'>
+                <li class="first-item" onclick="openNwindow('index.html')">
+                    <img src="../images/b-lg1.png" alt="" />
+                </li>
+                <li class="more-item" onclick="menu()"></li>
+                <li class="other-item fs0 "><a href="index.html">首页</a></li>
+                <li class="other-item fs0">
+                    <a>产品与方案</a>
+                    <ol class="nav-sub nav-sub-pos ">
+                        <li class='bb bgc1' onclick="openNwindow('product_classification.html')"><a href="product_classification.html"> 第三方支付 </a></li>
+                        <li class='bb'onclick="openNwindow('product_detail.html')"><a href="product_detail.html">祥付宝</a></li>
+                        <li class='bb'onclick="openNwindow('product_detail2.html')"><a href="product_detail2.html">互联网金融</a></li>
+                    </ol>
+                </li>
+                <li class="other-item fs0 "><a href="news_list.html"> 新闻</a></li>
+                <li class="other-item fs0 "><a href="job_list.html">招聘</a></li>
+                <li class="other-item fs0 "><a href="company.html">我们</a></li>
+                <li><div class="login lh0 fr"> <a href="http://www.xiangfubao.com.cn/mc/login.html">商户登录</a> | <a href="http://www.xiangfubao.com.cn/mc/login.html">注册</a></div></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--banner部分-->
+    <div class="w-slider banner " id="js_slider">
+        <div class="slider bannerCon">
+        <div class="slider-main imgList" id="slider_main_block">
+            <div class="slider-main-img"><a href="job_list.html"><img src="../images/index/1_02.png" alt=""/></a></div>
+            <div class="slider-main-img"><a href="agent.html"><img src="../images/index/2_02.png" alt=""/></a></div>
+            <div class="slider-main-img"><a href="product_classification.html"><img src="../images/index/3_02.png" alt=""/></a></div>
+            <div class="slider-main-img"><a href="product_classification.html"><img src="../images/index/4_02.png" alt=""/></a></div>
+            <div class="slider-main-img"><a href="product_classification.html"><img src="../images/index/5_02.png" alt=""/></a></div>
+        </div>
+        </div>
+        <div class="slider-ctrl" id="slider_ctrl">
+            <span class="slider-ctrl-prev"></span>
+            <span class="slider-ctrl-next"></span>
+        </div>
+    </div>
+    <!-- ====== mobile ========= -->
+    <div id="banner" class="swipe banner2">
+        <div class='swipe-wrap'>
+            <div class="change1" onclick="openNwindow('job_list.html')"><img class="img-wh" src="../images/banner_1.png" /></div>
+            <div class="change1" onclick="openNwindow('product_classification.html')"><img class="img-wh" src="../images/banner_2.png" /></div>
+            <div class="change1" onclick="openNwindow('agent.html')"><img class="img-wh" src="../images/banner_3.png" /></div>
+            <div class="change1" onclick="openNwindow('product_classification.html')"><img class="img-wh" src="../images/banner_4.png" /></div>
+            <div class="change1" onclick="openNwindow('product_classification.html')"><img  src="../images/banner_5.png" /></div>
+        </div>
+        <div class="circle">
+            <ul>
+                <li class="cur"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <a class="leftgo" href="javascript:void(0);"></a>
+        <a class="rightgo" href="javascript:void(0);"></a>
+    </div>
+
+    <!-- ================== product =====================-->
+    <div class="content1 bgc1">
+        <div class="center pd4 produc1">
+            <ul>
+                <li sty>
+                    <div><img src="../images/index/1.png" alt=""></div>
+                    <p class='fc6 fs8 lh2'>覆盖行业<span class='fs1'>14</span>大类</p>
+                </li>
+                <li>
+                    <div><img src="../images/index/2.png" alt=""></div>
+                    <p class='fc6 fs8 lh2'>支持渠道<span class='fs1'>20+</span>家</p>
+                </li>
+                <li>
+                    <div><img src="../images/index/3.png" alt=""></div>
+                    <p class='fc6 fs8 lh2'>服务客户<span class='fs1'>10万+</span>家</p>
+                </li>
+                <li>
+                    <div><img src="../images/index/4.png" alt=""></div>
+                    <p class='fc6 fs8 lh2'>年交易量<span class='fs1'>1000亿+</span></p>
+                </li>
+            </ul>
+        </div>
+        <div class="center1 center title san1">
+            <div class='fs0 fc6 fw2'>产品与方案
+            <span>PRODUCT & SOLUTION</span></div>
+            <!-- <div><img src="../images/index/product2.png" alt=""></div> -->
+
+        </div>
+    </div>
+    <div class="content-p bgc2">
+        <div class="center san1">
+            <div class='san'></div>
+            <div class="center-right fr">
+                <p class="center-title fc6 change1" onclick="openNwindow('product_classification.html')">第三方支付</p>
+                <p class="center-content fc7 change1" onclick="openNwindow('product_classification.html')">第三方支付是有效整合多种支付手段，方便用户进行便捷支付的系统，我们提供的第三方支付相关业务系统有预付卡系统、互联网支付系统、移动支付系统、收单系统、备份金核验系统、风控反洗钱系统等。</p>
+                <p class="center-content fc3 pd2 more"><a class="fc5 fs7" href="product_classification.html">查看详情 > </a></p>
+            </div>
+            <div class="center-left hauto fl pd7 change" onclick="openNwindow('product_classification.html')">
+                <img  src="../images/index/pro_1.png" />
+            </div>
+        </div>
+    </div>
+    <div class="content-p bgc1">
+        <div class="center">
+            <div class="center-right fl">
+                <p class="center-title fc6 change1" onclick="openNwindow('product_detail.html')">祥付宝</p>
+                <p class="center-content fc7 change1" onclick="openNwindow('product_detail.html')">祥付宝是一款集成微信支付，支付宝支付，百度钱包等的<span class="fc4 fs0">万能收银台</span> ，其整合线上收单与线下收单。</p>
+                <p class="center-content fc3 pd2 more"><a class="fc5 fs7" href="product_detail.html">查看详情 > </a></p>
+            </div>
+            <div class="center-left hauto fr  pd5 change" onclick="openNwindow('product_detail.html')">
+                <img  src="../images/index/pro_2.png" />
+            </div>
+        </div>
+    </div>
+    <div class="content-p bgc2">
+        <div class="center">
+            <div class="center-right fr">
+                <p class="center-title fc6 change1" onclick="openNwindow('product_detail2.html')">互联网金融</p>
+                <p class="center-content fc7 change1" onclick="openNwindow('product_detail2.html')">互联网金融是方便用户通过互联网平台进行金融理财的系统，我们提供的系统有P2P网贷系统、征信系统等。</p>
+                <p class="center-content fc3 pd2 more"><a class="fc5 fs7" href="product_detail.html">查看详情 > </a></p>
+            </div>
+            <div class="center-left hauto fl pd7 change" onclick="openNwindow('product_detail2.html')">
+                <img  src="../images/index/pro_3.png" />
+            </div>
+        </div>
+    </div>
+
+   <!-- ================== solution =====================-->
+    <div class="content-p bgc1">
+        <!-- <p class="center title">方案与案列&nbsp;<span>SOLUTION</span></p> -->
+        <div class="center">
+            <div class="center-right fl">
+                <p class="center-title fc6 change1" onclick="openNwindow('solution1.html')">第三方支付解决方案</p>
+                <p class="center-content fc7 change1" onclick="openNwindow('solution1.html')">第三方支付是指非金融机构在收付款人之间作为中介机构提供下列部分或全部货币资金转移服务,包括网络支付、预付卡的发行与受理、银行卡收单以及中国人民银行确定的其他支付服务。</p>
+                <p class="center-content fc3 pd2 more change1"><a class="fc5 fs7" href="solution1.html">查看详情 > </a></p>
+            </div>
+            <div class="center-left2 hauto fr">
+                <img  class="img-wh" src="../images/index/pro_4.png" />
+            </div>
+        </div>
+    </div>
+    <div class="content-p bgc2">
+        <div class="center">
+            <div class="center-right fl">
+                <p class="center-title fc6 change1" onclick="openNwindow('solution2.html')">支付牌照申请咨询服务解决方案</p>
+                <p class="center-content fc7 change1" onclick="openNwindow('solution2.html')">丰瑞祥作为国内泛金融行业的解决方案服务商 ，我们致力于为互联网金融行业、第三方支付行业等泛金融领域提供专业的互联网金融IT解决方案及业务咨询服务，尤其在第三方支付牌照解决方案方面积累的丰富服务经验。</p>
+                <p class="center-content fc3 pd2 more"><a class="fc5 fs7" href="solution2.html">查看详情 > </a></p>
+            </div>
+            <div class="center-left2 hauto fr">
+                <img src="../images/index/pro_5.png" />
+            </div>
+        </div>
+        <!-- <div class="wall hauto fr last1">
+            <img class="img-wh"  src="../images/index/pro_5.png" />
+        </div> -->
+    </div>
+
+
+    <!-- ================== pc news =====================-->
+    <div class="content bgc1 new-pc">
+        <div class="center san1">
+            <div class='san san-bg'></div>
+            <div class="title">
+                <div class='fs0 fc6 fw2 bd2 mar-b1 dpi pd17'>新闻中心
+                    <span>NEWS</span>
+                </div>
+            </div>
+            <div class="wall hauto over">
+                <!-- news left -->
+                <div class="center-news-left fl">
+                    <div class="big-news">
+                        <div class="big-news-img"><img class="img-wh" src="../images/index/news_1.png" /> </div>
+                        <div class="big-news-content" onclick="openNwindow('news_list_detail.html')">
+                            <p class="big-news-content-date hover">2016-03-22</p>
+                            <p class="big-news-content-content hover line3">2015年的国庆黄金周，将是中国移动支付第二场大规模战役。支付与电商一样，没有决战，讲究步步为营，日拱一卒支付与电商一样，没有决战，讲究步步为营，日拱一卒中国移动支付第二场大规模战役。支付与电商一样，没有决战，讲究步步为营...</p>
+                        </div>
+                        <p class="big-news-title ut-s hover" onclick="openNwindow('news_list_detail.html')">移动支付：场景即支付，支付即服务移动支付：场景即支付，支付即服务</p>
+                    </div>
+                </div>
+                <!-- news right -->
+                <div class="center-news-right fr">
+                    <ul class="news-list">
+                        <li class="bgcircle">
+                            <p class="news-list-title ut-s txt-l fl mar-l0" onclick="openNwindow('news_list_detail.html')">&nbsp移动支付：场景即支付支付即服务移动支付<span class="icon-news"></span><span class="icon-hot"></span></p>
+                            <p class="news-list-date txt-r fc2 fr">2016-03-22</p>
+                        </li>
+                        <li class="bgcircle">
+                            <p class="news-list-title ut-s txt-l fl mar-l0" onclick="openNwindow('news_list_detail.html')">&nbsp移动支付：场景即支付，支付即服务<span class="icon-news"></span></p>
+                            <p class="news-list-date txt-r fc2 fr">2016-03-22</p>
+                        </li>
+                        <li class="bgcircle">
+                            <p class="news-list-title ut-s txt-l fl mar-l0" onclick="openNwindow('news_list_detail.html')">&nbsp移动支付：场景即支付，支付即服务移动支付<span class="icon-hot"></span></p>
+                            <p class="news-list-date txt-r fc2 fr">2016-03-22</p>
+                        </li>
+                        <li class="bgcircle">
+                            <p class="news-list-title ut-s txt-l fl mar-l0" onclick="openNwindow('news_list_detail.html')">&nbsp移动支付：场景即支付，支</p>
+                            <p class="news-list-date txt-r fc2 fr">2016-03-22</p>
+                        </li>
+                        <li class="bgcircle">
+                            <p class="news-list-title ut-s txt-l fl mar-l0" onclick="openNwindow('news_list_detail.html')">&nbsp移动支付：场景即支付，支付即服务移动支付：场景即支付，支付即服务</p>
+                            <p class="news-list-date txt-r fc2 fr">2016-03-22</p>
+                        </li>
+                        <li class="bgcircle">
+                            <p class="news-list-title ut-s txt-l fl mar-l0" onclick="openNwindow('news_list_detail.html')">&nbsp移动支付：场景即支付，支付即服务移动支付：场景即支付，支付即服务</p>
+                            <p class="news-list-date txt-r fc2 fr">2016-03-22</p>
+                        </li>
+                        <li class="bgcircle">
+                            <p class="news-list-title ut-s txt- fl mar-l0" onclick="openNwindow('news_list_detail.html')">&nbsp移动支付：场景即支付，支付即服务移动支付：场景即支付，支付即服务</p>
+                            <p class="news-list-date txt-r fc2 fr">2016-03-22</p>
+                        </li>
+                        <li class="bgcircle">
+                            <p class="news-list-title ut-s txt-l fl mar-l0" onclick="openNwindow('news_list_detail.html')">&nbsp移动支付：场景即支付，支付即服务移动支付：场景即支付，支付即服务</p>
+                            <p class="news-list-date txt-r fc2 fr">2016-03-22</p>
+                        </li>
+                    </ul>
+                    <p class="center-content fc3 pd2 more"><a class="fs4 change" href="news_list.html">查看详情 > </a></p>
+                </div>
+            </div>
+        </div>
+     </div>
+
+    <!-- ================== mobile news =====================-->
+    <div class="content bgc1 new-mobile ">
+        <div class="center san1">
+            <div class='san san2 san-bg'></div>
+            <div class="title pd9">
+                <div class='fs0 fc6 fw2 bd2 mar-b1 dpi '>新闻中心
+                    <span>NEWS</span>
+                </div>
+                <span class="fr n-more" onclick="openNwindow('news_list.html')">查看更多></span>
+            </div>
+        </div>
+        <div class="wall hauto over rel">
+            <div class="wall hauto over"><img class="img-wh"  src="../images/index/news_1.png" /></div>
+            <p class="big-news-title ut-s bgc5" style="bottom: 0; font-size: 1em;"  onclick="openNwindow('news_list_detail.html')"><span class="fl ut-s w1">移动支付：场景即支付，支付即服务移动支付</span><span class="fr">2016-03-22</span></p>
+        </div>
+        <div class="center">
+            <ul class="mobile-news-list wall hauto over">
+                <li class="wall hauto over pd2 bd" onclick="openNwindow('news_list_detail.html')">
+                    <div class="mobile-news-list-right0 fr">
+                        <p class="mobile-news-list-right-title ut-s change">移动支付：场景即支付，</p>
+                        <span class="fr fc2">2016-03-22</span>
+                    </div>
+                </li>
+                <li class="wall hauto over pd2 bd" onclick="openNwindow('news_list_detail.html')">
+                    <div class="mobile-news-list-right0 fr">
+                        <p class="mobile-news-list-right-title ut-s change">移动支付：场景即支付，<span class="fr fc2 ">2016-03-22</span></p>
+                    </div>
+                </li>
+                <li class="wall hauto over pd2 bd" onclick="openNwindow('news_list_detail.html')">
+                    <div class="mobile-news-list-right0 fr">
+                        <p class="mobile-news-list-right-title ut-s change">移动支付：场景即支付，<span class="fr fc2">2016-03-22</span></p>
+                    </div>
+                </li>
+                <li class="wall hauto over pd2" onclick="openNwindow('news_list_detail.html')">
+                    <div class="mobile-news-list-right0 fr">
+                        <p class="mobile-news-list-right-title ut-s change">移动支付：场景即支付<span class="fr fc2">2016-03-22</span></p>
+                    </div>
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+
+    <!-- ================== partner ==========================-->
+    <div class="content bgc2 pd10">
+        <div class="center san1">
+            <div class='san san2'></div>
+            <div class="title"><div class='dpi bd2 fs8 mar1' >合作伙伴&nbsp;<span>PARTNER</span></div></div>
+
+           <!--  <div class="title product-p"><img src="../images/index/partner.png" alt=""></div> -->
+            <ul class="wall hauto over">
+                <li class="partner-item fl"><img class="img-wh" src="../images/index/part_01.png" /></li>
+                <li class="partner-item fl"><img class="img-wh" src="../images/index/part_02.png" /></li>
+                <li class="partner-item fl"><img class="img-wh" src="../images/index/part_03.png" /></li>
+                <li class="partner-item fl"><img class="img-wh" src="../images/index/part_04.png" /></li>
+                <li class="partner-item fl"><img class="img-wh" src="../images/index/part_5.png" /></li>
+                <li class="partner-item fl"><img class="img-wh" src="../images/index/part_6.png" /></li>
+                <li class="partner-item fl"><img class="img-wh" src="../images/index/part_7.png" /></li>
+                <li class="partner-item fl"><img class="img-wh" src="../images/index/part_8.png" /></li>
+                <li class="partner-item fl"><img class="img-wh" src="../images/index/part_9.png" /></li>
+                <li class="partner-item fl"><img class="img-wh" src="../images/index/part_10.png" /></li>
+                <li class="partner-item fl"><img class="img-wh" src="../images/index/part_11.png" /></li>
+                <li class="partner-item fl"><img class="img-wh" src="../images/index/part_12.png" /></li>
+                <li class="partner-item fl"><img class="img-wh" src="../images/index/part_13.png" /></li>
+                <li class="partner-item fl"><img class="img-wh" src="../images/index/part_14.png" /></li>
+                <li class="partner-item fl"><img class="img-wh" src="../images/index/part_15.png" /></li>
+                <li class="partner-item fl last-partner"><img class="img-wh" src="../images/index/part_16.png" /></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- ================== footer =========================-->
+    <div class="footer bgc10 pd4 ">
+        <div class="center">
+            <ul class="wall hauto over f-menu">
+                <li class="lh1 fl txt-c mar-r3"><a class="fc8" href="index.html">首页</a></li>
+                <li class="lh1 fl txt-c mar-r3"><a class="fc8" href="product_classification.html">方案与案例</a></li>
+                <li class="lh1 fl txt-c mar-r3"><a class="fc8" href="news_list.html" >新闻</a></li>
+                <li class="lh1 fl txt-c mar-r3"><a class="fc8" href="job_list.html" >招聘</a></li>
+                <li class="lh1 fl txt-c mar-r3"><a class="fc8" href="company.html">我们</a></li>
+                <li class="lh1 fl txt-c"><a class="fc8" href="agent.html">招商加盟</a></li>
+            </ul>
+            <div class="wall hauto over">
+                <div class="hauto over left fl tac pd6">
+                    <div class="public-code fl mar-r0">
+                        <div class="wall hauto over"><img class="img-wh" src="../images/index/frx.jpg"  /></div>
+                        <p class="lh1 fs4 fc8 txt-c">丰瑞祥</p>
+                    </div>
+                    <div class="public-code fl">
+                        <div class="wall hauto over"><img class="img-wh" src="../images/index/xfb.jpg"  /></div>
+                        <p class="lh1 fs4 fc8 txt-c">祥付宝</p>
+                    </div>
+                </div>
+                <div class="hauto over right fr pd9">
+                    <p class="f-p1 fc8">客服热线  &nbsp;&nbsp;<span class="fc0 fs1 dpi">400-890-9098</span></p>
+                    <p class="f-p2 fc8">Copyright 2015 fullrich.com All Rights Reserved.京ICP备13031933号-1</p>
+                    <ul class="wall hauto over f-lg mar-t0">
+                        <li class="hauto over fr sm"><img class="img-wh" src="../images/index/foot_5.png" /></li>
+                        <li class="hauto over fr sm"><img class="img-wh" src="../images/index/foot_04.png" /></li>
+                        <li class="hauto over fr sm"><img class="img-wh" src="../images/index/foot_03.png" /></li>
+                        <li class="hauto over fr sm"><img class="img-wh" src="../images/index/foot_02.png" /></li>
+                        <li class="hauto over fr sm"><img class="img-wh" src="../images/index/foot_01.png" /></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+  <script src="../js/control.js"></script>
+  <script src="../js/slider.js"></script>
+  <script src="../js/animate.js"></script>
+  <script src="../js/fixtop.js"></script>
+
+  <script type="text/javascript" src="../js/swipe.js"></script>
+  <script type="text/javascript">
+
+     topMenu(0);
+
+    var haha = document.getElementById('banner');
+    window.mySwipe = Swipe(
+      haha,
+      {
+        startSlide: 0,
+        auto: 3000,
+        continuous: true,
+        disableScroll: true,
+        stopPropagation: true,
+        callback: function(index, element) {
+          $(".circle ul li").eq(index).addClass("cur").siblings().removeClass("cur");
+        }
+      }
+    );
+
+
+    $(".circle ul li").click(
+      function(){
+        mySwipe.slide($(this).index(),1000);
+      }
+    );
+    /*左侧按钮*/
+            $('.leftgo').click(function(){
+                var curnum = 0;
+                $('.circle li').each(function(flag){
+                    if($(this).hasClass('cur')){
+                        curnum = flag;
+                    }
+                });
+                $('.circle li').eq(curnum).removeClass('cur');
+                if(curnum == 0){
+                    curnum = $('.circle li').length-1;
+                }
+                else{
+                    curnum = curnum - 1;
+                }
+                $('.circle li').eq(curnum).addClass('cur');
+
+                mySwipe.slide($('.swipe-wrap div').eq(curnum).index(),1000);
+
+            });
+            /*右侧按钮*/
+            $('.rightgo').click(function(){
+                var curnum = 0;
+                $('.circle li').each(function(flag){
+                    if($(this).hasClass('cur')){
+                        curnum = flag;
+                    }
+                });
+                $('.circle li').eq(curnum).removeClass('cur');
+                if(curnum == $('.circle li').length-1){
+                    curnum = 0;
+                }
+                else{
+                    curnum = curnum + 1;
+                }
+                $('.circle li').eq(curnum).addClass('cur');
+                mySwipe.slide($('.swipe-wrap div').eq(curnum).index(),1000);
+
+            });
+
+
+
+  </script>
+</body>
+</html>

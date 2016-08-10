@@ -1,0 +1,659 @@
+/**
+ * Created by fullrich_UI on on 2016/3/21.
+ * css about media ...
+ */
+@charset "utf-8";
+.mobile1 {
+    display: none;
+}
+@media screen and (max-width: 468px) {
+   .mobile1 {
+    display: block;
+   }
+   .pc1 {
+    display: none;
+   }
+}
+/*============= 4个图==============================================*/
+@media screen and (max-width:800px) {
+    .produc1 ul {
+        margin-left: 0;
+    }
+    .produc1 ul li {
+        width: 50%;
+        padding-top: 1em;
+    }
+}
+@media screen and (max-width: 468px) {
+    .produc1 ul li {
+        padding-top: 0;
+    }
+    .produc1 ul li p {
+        font-size: 1em;
+    }
+    .produc1 ul li p span {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .banner {
+        display: none;
+    }
+    .swipe {
+        display: block;
+    }
+}
+
+/*============= media screen and (min-width: 980px) ==============================================*/
+@media screen and (min-width: 980px) {
+    .top{
+        width: 990px;
+    }
+    .nav ul{
+        width: 990px;
+    }
+    .nav .first-item a img{
+        width: 24em;
+    }
+    .nav ul .other-item{
+        display: block;
+    }
+    .nav ul .more-item{
+        display: none;
+    }
+    .center{
+        width: 990px;
+    }
+}
+
+/*============= @media screen and (max-width: 980px ) ==============================================*/
+@media screen and (max-width: 980px ) {
+    .top{
+        width: 94%;
+    }
+    .nav ul{
+        width: 94%;
+    }
+    .nav .first-item a img{
+        width: 20em;
+    }
+    .nav ul .first-item {
+        margin-right: 8%;
+    }
+    .nav ul .login{
+        display: none;
+    }
+    .center{
+        width: 94%;
+    }
+    .pro {
+        width: 98%;
+        margin: 0 1%;
+    }
+
+    .wp {
+        width: 100%;
+        height: auto;
+        position: relative;
+        width: 60%;
+        height: auto;
+        padding: 1em 0 0 0;
+    }
+}
+
+/*============= @media screen and (max-width: 768px) ==============================================*/
+@media screen and (max-width: 768px) {
+
+    /* 三角*/
+
+    .san {
+        left: 3em;
+    }
+    .san2 {
+        left: 2.3em;
+    }
+    .top {
+        display: none;
+    }
+    .w3,.w4{
+        width: 100%;
+    }
+    .sub-top {
+        margin-top: 8em;
+    }
+    /*nav*/
+    .nav{
+
+    }
+    .nav ul{
+        width: 94%;
+    }
+    .nav .first-item a img{
+        width: 15em;
+        margin: 0.65em 0;
+    }
+    .nav ul .other-item{
+        display: none;
+    }
+    .nav ul .login{
+        display: none;
+    }
+    .nav ul .more-item{
+        display: block;
+    }
+    .center{
+        width: 94%;
+    }
+    .nav-sub li:hover a{
+        color: #e60012;
+    }
+    /* footer */
+    .footer .left{
+        width: 35%;
+    }
+    .footer .right{
+        width: 65%;
+    }
+    /*other*/
+    .pd2{
+        padding:1em 0;
+    }
+    .pd5{
+        padding:1em 0 0 0;
+    }
+    .proimg{
+        width: 100%;
+        margin: 0;
+    }
+    .title{
+        line-height: 2em;
+        font-size: 1.2em;
+        color: #000;
+        font-weight: 400;
+        letter-spacing: 0.1em;
+        letter-spacing: 0.05em;
+    }
+    .title div span{
+        font-size: 0.58em;
+        color: #e60012;
+        font-weight:500;
+    }
+    /* ========= product ================================*/
+    .content-p {
+        height: auto;
+    }
+    .center-left, .center-left1, .center-left2{
+        width: 60%;
+        margin: 0 20%;
+        padding: 1em 0 0 0;
+    }
+    .center-left img{
+        width: 50%;
+        margin: 0 25%;
+
+    }
+    .center-right,.center-right1{
+        width: 100%;
+        margin: 0;
+        padding: 1em 0 0 0;
+    }
+    .center-title{
+        line-height: 2em;
+        font-size: 1.2em;
+        padding: 0;
+        font-weight: 400;
+
+    }
+    .center-content{
+        line-height: 1.5em;
+        font-size: 1em;
+    }
+    .pd6{ padding: 0;}
+    .center .more{
+        display: none;
+    }
+    .n-more{
+        display: block;
+    }
+    /* news */
+    .new-pc{
+        display: none;
+    }
+    .new-mobile{
+        display: block;
+    }
+    /* form */
+    .first form table tbody tr .w1 input,
+    .first form table tbody tr .w1 .code,
+    .first form table tbody tr .w1 select{
+        width: 90%;
+    }
+    .first form table tbody tr .w1 textarea{
+        width: 86%;
+    }
+    .first form table tbody tr .w1 p{
+        width: 90%;
+    }
+    /* left menu */
+    .right-content{
+        width: 100%;
+    }
+    .left-menu,.left-menu1{
+        display: none;
+    }
+    .sub-menu{
+        display: block;
+    }
+    .sub-pc {
+        display: none;
+    }
+    .sub-mobile {
+        display: block;
+    }
+    .join span{
+        margin-right: 2em;
+    }
+    .news-list div img {
+        width: 70%;
+        margin: 0 15%;
+    }
+
+/* 公司历程 */
+    .gslc .gslc-l {
+        width: 15%;
+    }
+    .gslc .gslc-r {
+        margin-left: 17%;
+    }
+    .gslc .gslc-r li {
+        width: 83%;
+    }
+    .gslc li span.cicrle {
+        left: 16%;
+    }
+    .gslc li span.cicrle1 {
+        left: 16.5%;
+    }
+    .gslc li span.cicrle2 {
+        left: 16.1%;
+    }
+.ryzz {
+    padding-top: 2em;
+}
+.ryzz li{
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+}
+.ryzz li.last {
+    margin-right: 3%;
+}
+}
+/*============= @media screen and (max-width: 468px) ==============================================*/
+@media screen and (max-width: 468px) {
+    .top {
+        display: none;
+    }
+    .w3,.w4{
+        width: 100%;
+    }
+    /*nav*/
+    .nav{
+        padding: 0;
+    }
+    .nav ul{
+        width: 94%;
+        height: 50px;
+    }
+    .nav .first-item>img {
+        height: 2.1em;
+        padding-top: 0.25em;
+    }
+    .nav .first-item a img{
+        width: 15em;
+        margin: 0.65em 0;
+    }
+    .nav ul .other-item{
+        display: none;
+    }
+    .nav ul .more-item{
+        display: block;
+        margin: 1em 0;
+        width: 1.6em;
+        height: 1.6em;
+        margin-right: 0.5em;
+    }
+    .center{
+        width: 94%;
+    }
+    .other-item {
+        height: 3em;
+        line-height: 3em;
+    }
+    /* product*/
+    .prod {
+        padding-bottom: 0;
+    }
+    .prod2 div:first-child {
+        width: 60%;
+    }
+    .prod2 div img {
+        width: 100%;
+        height: auto;
+    }
+    .product-m {
+        display: block;
+    }
+    .product-p {
+        display: none;
+    }
+    footer
+    .footer{
+        padding: 0.5em 0;
+    }
+    .footer .f-menu, .footer .f-lg{
+        display: none;
+    }
+    .footer ul li a{
+        font-size: 1em;
+    }
+    .footer .public-code{
+        width: 7em;
+        height: auto;
+        overflow: hidden;
+        line-height: 1em;
+        font-size:0.85em;
+    }
+    .footer .public-code p{
+        font-size: 1.2em;
+        line-height: 3em;
+    }
+    .footer .f-p1{
+        line-height: 1em;
+        text-align: left;
+        color:#999999;
+        font-size: 1em;
+    }
+    .footer .f-p1 span{
+        font-size:1.2em;
+    }
+    .footer .f-p2{
+        line-height: 1.5em;
+        text-align: left;
+        color:#999999;
+        font-size: 1em;
+        padding: 0.65em 0;
+    }
+    .footer .left{
+        width: 70%;
+        padding: 0 15%;
+    }
+    .footer .left div:first-child {
+        float: left;
+    }
+    .footer .left div:last-child {
+        float: right;
+    }
+    .footer .right{
+        width: 85%;
+        padding-left: 15%;
+    }
+    /*other*/
+    .pd5{
+        padding:1em 0 0 0;
+    }
+    .pd2{
+        padding:1em 0;
+    }
+    .proimg{
+        width: 100%;
+        margin: 0;
+    }
+
+    .title{
+        line-height: 2em;
+        font-size: 1.2em;
+        color: #000;
+        font-weight: 400;
+        letter-spacing: 0.1em;
+        letter-spacing: 0.05em;
+    }
+
+    .title div span{
+        font-size: 0.58em;
+        color: #e60012;
+        font-weight:500;
+    }
+    .center-left, .center-left1 ,.center-left2{
+        width: 100%;
+        margin: 0 ;
+        padding: 1em 0 0 0;
+    }
+    .center-left img{
+        width: 60%;
+        margin: 0 20%;
+
+    }
+    .center-left1 img,.center-left2 img {
+        width: 90%;
+        margin: 0 5%;
+    }
+    .center-right,.center-right1{
+        width: 100%;
+        margin: 0;
+        padding: 0.8em 0 0 0;
+    }
+    .center-title{
+        line-height: 2em;
+        font-size: 1.3em;
+        padding: 0;
+        font-weight: 400;
+
+    }
+    .center-content{
+        line-height: 1.5em;
+        font-size: 1em;
+    }
+    .pd6{ padding: 0;}
+    .center .more{
+        display: none;
+    }
+    .n-more{
+        display: block;
+    }
+    /* news */
+    .new-pc{
+        display: none;
+    }
+    .new-mobile{
+        display: block;
+    }
+    .partner-item{
+        width: 20%;
+        height: auto;
+        overflow: hidden;
+        padding: 0.5em 2.5%;
+    }
+    .last-partner{
+        display: block;
+    }
+    /* form */
+    .w0-width1{
+        width: 30%;
+    }
+    .w1-width1{
+        width: 69%;
+    }
+    .first form table tbody tr .w1 input,
+    .first form table tbody tr .w1 .code,
+    .first form table tbody tr .w1 select{
+        width: 90%;
+    }
+    .first form table tbody tr .w1 textarea{
+        width: 86%;
+    }
+    .first form table tbody tr .w1 p{
+        width: 90%;
+    }
+    /* news list*/
+    .mobile-news-list-right{
+        width: 100%;
+    }
+    .news-list-title
+    {
+        width: 70%;
+    }
+    .news-list-date {
+        width: 25%;
+    }
+    .mobile-news-list-left {
+        width: 70%;
+        margin: 0 15%;
+        padding-top: 1em;
+    }
+    .mobile-news-list-right>p:nth-child(2) {
+        padding-top: 1em;
+    }
+    .news-list-title{
+        margin: 0;
+    }
+    .bgcircle{
+        background: none;
+    }
+    .news-list-date{
+        text-align: left;
+        line-height: 1.5em;
+        font-size: 0.95em;
+    }
+    .news-list li{
+        padding: 0;
+    }
+    .w2{
+        width: 100%;
+    }
+    .fs7{
+        font-size: 1em;
+    }
+    /* left menu */
+    .right-content{
+        width: 100%;
+    }
+    .left-menu,.left-menu1{
+        display: none;
+    }
+    .sub-menu{
+        display: block;
+    }
+    .join div{
+        width: 100%;
+        margin-right: 0;
+    }
+    .pd7{
+        padding: 0.8em 0;
+    }
+    .job div{
+        width: 90%;
+    }
+    .job div.last{
+        text-align: left;
+    }
+    .btn{
+        width: 6.5em;
+        height: 2.3em;
+        line-height: 2.3em;
+        font-size: 0.95em;
+    }
+    .register .one{
+        left: 50%;
+        margin-left: -6.5em;
+    }
+    .register .two{
+       left: 50%;
+        margin-right: -1.5em;
+    }
+
+    /* 显示与隐藏 */
+    .product-p {
+        display: none;
+    }
+    .product-m {
+        display: block;
+    }
+    .news-list div img {
+        width: 90%;
+        margin: 0 5%;
+    }
+    /* 公司历程 */
+    .gslc .gslc-l {
+        width: 20%;
+    }
+    .gslc .gslc-r {
+        margin-left: 22%;
+    }
+    .gslc .gslc-r li {
+        width: 78%;
+    }
+    .gslc li span.cicrle {
+        left: 20%;
+    }
+    .gslc li span.cicrle1 {
+        left: 21%;
+    }
+    .gslc li span.cicrle2 {
+        left: 20%;
+    }
+
+.ryzz {
+
+}
+.ryzz li{
+    float: left;
+    width: 47%;
+    margin-right: 3%;
+}
+.ryzz li img {
+    width: 100%;
+    height: 100%;
+}
+.ryzz li.last {
+    margin-right: 3%;
+}
+.lxwm_b {
+    width: 90%;
+    margin: 0 5%;
+}
+.lxwm_b .circle {
+    width: 4em;
+    height: 4em;
+    padding-top: 1.3em;
+}
+/* 首页四个图的图片 */
+.produc1 ul li img {
+    width: 3.9em;
+    height: 3.9em;
+}
+.bgcom{
+    background: url("../images/company/banner_0.png") no-repeat left center;
+    background-size: cover;
+}
+
+/* job_list  工作人数 在pc端变大 */
+.pd18 {
+    padding-left: 2em;
+}
+/* 金融banner图片 */
+.jr-img {
+    padding-bottom: 0.8em;
+}
+.bgcircle p {
+    padding: 1.15em 0;
+}
+.bgcircle .news-list-date {
+    padding-top: 1.5em;
+}
+.gsry {
+    padding-top: 3em;
+}
+
+}
