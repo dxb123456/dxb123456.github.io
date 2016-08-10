@@ -48,13 +48,13 @@
 @keyframes soldiers_left {
     0%{opacity: 0}
     1%{opacity: 1}
-    50%{top:360px;left:280px;transform-origin:bottom;transform: skew(-20deg);opacity: 1}
+    50%{top:360px;left:280px;transform-origin:bottom;transform: skew(-10deg);opacity: 1}
     100%{top:360px;left:280px;transform-origin:bottom;transform: skew(0deg);opacity: 1}
 }
 @keyframes soldiers_right {
     0%{opacity: 0}
     1%{opacity: 1}
-    50%{top:360px;left:560px;transform-origin:bottom;transform: skew(20deg);opacity: 1}
+    50%{top:360px;left:560px;transform-origin:bottom;transform: skew(10deg);opacity: 1}
     100%{top:360px;left:560px;transform-origin:bottom;transform: skew(0deg);opacity: 1}
 }
 

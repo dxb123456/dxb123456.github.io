@@ -1,19 +1,18 @@
 /**
  * Created by Administrator on 2016/7/21.
  */
-    var timer;
     function f0(){
-        $("#div00 img").eq(1).css({width:285,height:76,left:340,top:250,opacity:1});
-        $("#div00 img").eq(0).css({width:32,height:20,left:310,top:242,opacity:1});
-        $("#div00 img").eq(2).css({width:72,height:72,left:365,top:330,opacity:1})
-        $("#div00 img").eq(3).css({width:216,height:75,left:442,top:323,opacity:1})
-        $("#div00 img").eq(4).css({width:32,height:20,left:658,top:308,opacity:1})
+        $("#div00 .img0_2").css({width:285,height:76,left:340,top:250,opacity:1});
+        $("#div00 .img0_1").css({width:32,height:20,left:310,top:242,opacity:1});
+        $("#div00 .img0_3").css({width:72,height:72,left:365,top:330,opacity:1})
+        $("#div00 .img0_4").css({width:216,height:75,left:442,top:323,opacity:1})
+        $("#div00 .img0_5").css({width:32,height:20,left:658,top:308,opacity:1})
     }
     function f1(){
         $("#one_img1").css({transition:"all 0.5s linear",left:24,top:505,opacity:1});
         $("#one_img2").css({transition:'all 0.5s 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275)',transform:"rotateX(0deg) skew(0deg)",opacity:1})
         setTimeout(function(){
-            $(".left_div").css({animation: "0.6s move",opacity: 1})
+            $(".left_div").css({animation: "0.6s move1_1",opacity: 1})
             $(".img401").css({top:297,opacity:1,transition: 'all 0.2s 0.7s linear'});
             $(".img402").css({top:276,opacity:1,transition: 'all 0.2s 0.9s linear'});
             $(".img403").css({top:270,opacity:1,transition: 'all 0.3s 1.1s linear'});
@@ -21,12 +20,12 @@
             $(".img405").css({top:297,opacity:1,transition: 'all 0.2s 0.8s linear'});
             $("#ma1").css({opacity:1,transition: 'opacity 0s 1s linear'});
             $("#ma2").css({opacity:1,transition: 'opacity 0s 1s linear'});
-            $(".img60").css({animation: "2s 1s linear move2",'animation-fill-mode': "forwards","z-index":"3"});
+            $(".img60").css({animation: "2s 1s linear move1_2",'animation-fill-mode': "forwards","z-index":"3"});
             $(".show601").css({animation: "0.55s 1s move601",'animation-fill-mode': "both"});
             $(".show602").css({animation: "0.26s 1.6s move602",'animation-fill-mode': "both"});
             $(".show603").css({animation: "0.25s 1.9s move603",'animation-fill-mode': "both"});
             $(".show604").css({animation: "0.25s 2.2s move604",'animation-fill-mode': "both"});
-            $(".show605").css({animation: "0.6s 2.5s move605",'animation-fill-mode': "both"});
+            $(".show605").css({animation: "0.6s 2.6s move605",'animation-fill-mode': "both"});
             $(".one_2006").css({top:86,opacity:1,transition:"all 0.5s 3s",})
             $(".one_text").css({top:142,opacity:1,transition:"all 0.5s 3.3s"})
         },800);
@@ -67,6 +66,15 @@
         //$(".two_smoke1").css({animation:"1s 0.7s smoke1",'animation-fill-mode': "both"})
     }
     function f3(){
+
+        $(".three6").css({position: 'absolute',top:167,left:88,'z-index':0,transform: 'rotateZ(-180deg)',opacity:0});
+        //$(".three6_mask1").css({position: 'absolute','background-color':'#09c' ,top:653,height: 155,width:166,left:90,'z-index':3,opacity: 1})
+        //$('.three6_mask2').css({position: 'absolute','background-color': '#09c',top:653,height: 300,width:300,left:616,'z-index':2,opacity: 1})
+        //$('.three6_mask3').css({position: 'absolute','background-color': '#09c',top:509,height: 230,width:200,left:800,'z-index':2,opacity: 1})
+        var btn3 =  $("#list1").children().eq(3)[0];
+        clearTimeout(btn3.timer11);
+        clearTimeout(btn3.timer33);
+        clearInterval(btn3.timer22);
         $(".three_window").css({transition:"all 0.5s 0.2s",transform: "rotateX(0deg) skew(0deg)"});
         //$(".three_sofa").css({transition:"all 0.4s 0.4s cubic-bezier(0.620, 1.130, 0.550, 1.650)",top:460})
         $(".three_sofa").css({"animation":".5s 0.6s sofa","animation-fill-mode":"both"})
@@ -76,16 +84,20 @@
         $(".three_girl").css({"animation":".5s 1.5s girl","animation-fill-mode":"both"})
         setTimeout(function(){
             maopao();
-        },1600)
-        setTimeout(function(){
+        },1600);
+        btn3.timer11=setTimeout(function(){
+            clearInterval(btn3.timer22);
             var a=-180;
-            timer=setInterval(function(){
+            btn3.timer22=setInterval(function(){
+                console.log( 11,btn3.timer22)
                 a=a+2;
-                $(".three6").css({"transformOrigin":"416px 424px","transform":"rotateZ("+a+"deg)",opacity:1})
-                if(a==0){clearInterval(timer)}
+                $(".three6").css({"transformOrigin":"414px 415px","transform":"rotateZ("+a+"deg)",opacity:1})
+                if(a==0){
+                    clearInterval(btn3.timer22);
+                }
             },16)
         },3400);
-        setTimeout(function(){
+        btn3.timer33=setTimeout(function(){
             $(".three6_mask3").css({opacity:0});
             $(".three_flower").css({'z-index':'0'})
             $('.three6_mask1').css({transition:"opacity 0.5s 0.5s",opacity:0})
@@ -111,11 +123,24 @@
         $(".man_left").css({'animation':"0.2s 2.6s man_left","animation-fill-mode":"both"})
         $(".man_right").css({'animation':"0.2s 2.8s man_right","animation-fill-mode":"both"})
         $(".center_man1").css({animation:'3s 2.4s infinite  man_head '})
-        $(".leftflag").css({animation:'4s 2.5s leftflag infinite alternate'})
+        $(".leftflag").css({animation:'6s 2.5s leftflag infinite alternate'})
         $(".rightflag").css({animation:'8s 2.7s leftflag infinite alternate'})
 
-        $(".four_2012").css({top:66,opacity:1,transition:"all 0.5s 3s",})
+        $(".four_2012").css({top:60,opacity:1,transition:"all 0.5s 3s",})
         $(".four_text").css({top:122,opacity:1,transition:"all 0.5s 3.3s"})
+    }
+    function f5(){
+        $('.five_mountain').css({transition:'height 0.2s',height:100})
+        $('.five_bg1').css({transition:'transform 0.3s 0.4s',"transform-origin": "bottom center",transform: "scale(1)"})
+        $('.five_cloud1').css({transition:'transform 0.3s 0.5s',transform: "scale(1)"})
+        $('.five_cloud2').css({transition:'transform 0.3s 0.5s',transform: "scale(1)"})
+        $('.five_logo').css({transition:'transform 0.4s 0.7s',"transform-origin": "bottom center",transform: "scale(1)"})
+        $('.five_bg2').css({transition:'all 0.6s 0.7s',opacity:0.1,animation:"40s infinite bg2"})
+        $('.five_smalllogo').css({animation:'0.6s 1.8s smalllogo',"animation-fill-mode":"both"})
+
+        $(".five_2013").css({top:56,opacity:1,transition:"all 0.5s 2.4s",})
+        $(".five_text").css({top:127,opacity:1,transition:"all 0.5s 2.6s"})
+
     }
 
 function maopao(){

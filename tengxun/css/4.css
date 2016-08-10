@@ -20,7 +20,7 @@
 .hedge li{position: absolute;top:0;left:0;display:block;opacity: 0;transition:all 0.2s;}
 .diamond{height: 12px;position: absolute;top:513px;left:227px;width: 0px;background-color: #46b8dd}
 
-.four_2012{font-size: 40px;color: white;position: absolute;top:36px;left:456px;opacity: 0}
+.four_2012{font-size: 48px;color: white;position: absolute;top:36px;left:456px;opacity: 0}
 .four_text{font-size: 14px;color: white;text-align: center;position: absolute;top:92px;left:340px;width: 350px;opacity: 0}
 
 @keyframes penguin {
