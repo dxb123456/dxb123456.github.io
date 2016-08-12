@@ -20,18 +20,17 @@
             $(".img405").css({top:297,opacity:1,transition: 'all 0.2s 0.8s linear'});
             $("#ma1").css({opacity:1,transition: 'opacity 0s 1s linear'});
             $("#ma2").css({opacity:1,transition: 'opacity 0s 1s linear'});
-            $(".img60").css({animation: "2s 1s linear move1_2",'animation-fill-mode': "forwards","z-index":"3"});
+            $(".img60").css({animation: "2s 1s linear move1_9",'animation-fill-mode': "forwards","z-index":"3"});
             $(".show601").css({animation: "0.55s 1s move601",'animation-fill-mode': "both"});
             $(".show602").css({animation: "0.26s 1.6s move602",'animation-fill-mode': "both"});
             $(".show603").css({animation: "0.25s 1.9s move603",'animation-fill-mode': "both"});
             $(".show604").css({animation: "0.25s 2.2s move604",'animation-fill-mode': "both"});
-            $(".show605").css({animation: "0.6s 2.6s move605",'animation-fill-mode': "both"});
+            $(".show605").css({animation: "0.8s 2.5s move605",'animation-fill-mode': "both"});
             $(".one_2006").css({top:86,opacity:1,transition:"all 0.5s 3s",})
             $(".one_text").css({top:142,opacity:1,transition:"all 0.5s 3.3s"})
         },800);
 
     }
-//var two_img2=document.getElementsByClassName("two_img2")[0];
     function f2(){
         $('.two_img1').css({transition:"all 0.3s",'transform': "skew(0deg)",opacity:1});
         //$('.two_img2').css({transition:"all 0.3s 0.3s cubic-bezier(0.175, 0.885, 0.320, 1.275)",top:333,opacity:1});
@@ -61,35 +60,25 @@
         $(".mouth").css({transition:"opacity 0s 4.0s",opacity:1})
         $(".two_2008").css({top:66,opacity:1,transition:"all 0.5s 4.1s",})
         $(".two_text").css({top:122,opacity:1,transition:"all 0.5s 4.4s"})
-        //$(".smoke1 img").eq(1).css({transition:"1s 0.7s",left:95,width:103});
-        //$(".smoke1 img").eq(2).css({transition:"1s 0.7s",width:103});
-        //$(".two_smoke1").css({animation:"1s 0.7s smoke1",'animation-fill-mode': "both"})
     }
     function f3(){
-
         $(".three6").css({position: 'absolute',top:167,left:88,'z-index':0,transform: 'rotateZ(-180deg)',opacity:0});
-        //$(".three6_mask1").css({position: 'absolute','background-color':'#09c' ,top:653,height: 155,width:166,left:90,'z-index':3,opacity: 1})
-        //$('.three6_mask2').css({position: 'absolute','background-color': '#09c',top:653,height: 300,width:300,left:616,'z-index':2,opacity: 1})
-        //$('.three6_mask3').css({position: 'absolute','background-color': '#09c',top:509,height: 230,width:200,left:800,'z-index':2,opacity: 1})
         var btn3 =  $("#list1").children().eq(3)[0];
         clearTimeout(btn3.timer11);
         clearTimeout(btn3.timer33);
         clearInterval(btn3.timer22);
         $(".three_window").css({transition:"all 0.5s 0.2s",transform: "rotateX(0deg) skew(0deg)"});
-        //$(".three_sofa").css({transition:"all 0.4s 0.4s cubic-bezier(0.620, 1.130, 0.550, 1.650)",top:460})
         $(".three_sofa").css({"animation":".5s 0.6s sofa","animation-fill-mode":"both"})
-        //$(".three_lamp").css({transition:"all 0.4s 0.6s cubic-bezier(0.620, 1.130, 0.550, 1.650)",top:297,opacity:1})
         $(".three_lamp").css({"animation":".5s 1s lamp","animation-fill-mode":"both"})
         $(".three_flower").css({"animation":".5s 1.3s flower","animation-fill-mode":"both"})
         $(".three_girl").css({"animation":".5s 1.5s girl","animation-fill-mode":"both"})
         setTimeout(function(){
-            maopao();
+            bubbling();
         },1600);
         btn3.timer11=setTimeout(function(){
             clearInterval(btn3.timer22);
             var a=-180;
             btn3.timer22=setInterval(function(){
-                console.log( 11,btn3.timer22)
                 a=a+2;
                 $(".three6").css({"transformOrigin":"414px 415px","transform":"rotateZ("+a+"deg)",opacity:1})
                 if(a==0){
@@ -105,20 +94,16 @@
         },4400)
         $(".three_2010").css({top:76,opacity:1,transition:"all 0.5s 5s"})
         $(".three_text").css({top:132,opacity:1,transition:"all 0.5s 5.5s"})
-        //$(".three6").css({'transform-origin':"center center",transition:"all 0.3s 1.8s",transform:'rotateZ(0deg)'})
     }
     function f4(){
         $('.four_mountain').css({transition:"all 0.4s",'transform-origin':'bottom','transform': "skew(0deg)",opacity:1})
         $('.four_penguin').css({"animation":".4s 0.4s penguin","animation-fill-mode":"both"})
 
-        //$(".center_man3").css({'animation':"1s 1s man_center3","animation-fill-mode":"both"})
-        //$(".center_man3").css({"transition":"all 0s 0.9s ","top":"-35",left:"-5"})
         setTimeout(function(){
             hedge();
             $(".four_sweat").css({transition:"top 0.6s ",opacity:1,top:207})
         },800)
         $(".man_center").css({'animation':".2s 1.8s man_center","animation-fill-mode":"both"})
-        //$(".center_man3").css({"transition":"all 2s 2s ","transform-origin":"bottom",transform: "rotateX(150deg)"})
         $(".center_man3").css({'animation':"1.3s 1.9s man_center3","animation-fill-mode":"both"})
         $(".man_left").css({'animation':"0.2s 2.6s man_left","animation-fill-mode":"both"})
         $(".man_right").css({'animation':"0.2s 2.8s man_right","animation-fill-mode":"both"})
@@ -143,8 +128,12 @@
 
     }
 
-function maopao(){
-    var img0=document.getElementById('small_logo').getElementsByTagName('img');
+function bubbling(){
+    try{
+        var img0=document.getElementById('small_logo').getElementsByTagName('img');
+    } catch(ev){
+        return;
+    }
     var a=0;
     var m=10;
     for(var i=0;i<img0.length;i++){
@@ -161,17 +150,18 @@ function maopao(){
             m>30 ? m+=3:m+=5;
             img0[i].style.opacity=1;
             if(i%3==0){
-                img0[i].style.animation=m+'s move_1 infinite'
+                img0[i].style.animation=m+'s move3_2 infinite';
             }
             if(i%3==1){
-                img0[i].style.animation=m+'s move infinite';
+                img0[i].style.animation=m+'s move3_1 infinite';
             }
             if(i%3==2){
-                img0[i].style.animation=m+'s move_2 infinite';
+                img0[i].style.animation=m+'s move3_3 infinite';
             }
         }
     },2000)
 }
+//冒泡函数
 function hedge(){
     var hedge=document.getElementsByClassName('hedge')[0];
     var diamond=document.getElementsByClassName("diamond")[0];
@@ -181,7 +171,11 @@ function hedge(){
         li.appendChild(img);
         li.style.left=i*31+"px";
         img.src='image/four/four_hedge.png';
-        hedge.appendChild(li)
+        if(hedge){
+            hedge.appendChild(li)
+        }else{
+            return;
+        }
     }
     var n=0;
     var x=0;
@@ -203,4 +197,6 @@ function hedge(){
                 clearInterval(timer1)
             }
         },10)
-    },200)}
+    },200)
+}
+//彩虹效果

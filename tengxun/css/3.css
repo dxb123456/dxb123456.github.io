@@ -48,7 +48,7 @@
     85%{opacity:1;transform: scale(0.9)}
     100%{opacity:1;transform: scale(1)}
 }
-@keyframes move {
+@keyframes move3_1 {
     0%{ transform:translate(0px,0px);}
     10%{transform: translate(-10px,-10px)}
     25%{transform: translate(-10px,+10px)}
@@ -58,7 +58,7 @@
     90%{transform: translate(-10px,10px)}
     100%{transform: translate(0px,0px)}
 }
-@keyframes move_1 {
+@keyframes move3_2 {
     0%{ transform:translate(0px,0px);}
     10%{transform: translate(5px,5px)}
     25%{transform: translate(10px,-10px)}
@@ -68,7 +68,7 @@
     90%{transform: translate(10px,-10px)}
     100%{transform: translate(0px,0px)}
 }
-@keyframes move_2 {
+@keyframes move3_3 {
     0%{ transform:translate(0px,0px);}
     10%{transform: translate(-5px,-5px)}
     25%{transform: translate(-10px,-10px)}

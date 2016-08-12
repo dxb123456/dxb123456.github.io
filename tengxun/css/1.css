@@ -20,6 +20,19 @@
     70%{transform: rotateZ(47deg);top:242px;left: 640px;opacity: 1}
     100%{transform: rotateZ(46deg);top:159px;left: 712px;opacity: 1}
 }
+@keyframes move1_9{
+    0%{width: 50px;height: 25px;top:420px;left:203px;opacity: 1}
+    20%{top:204px;left:404px;transform: rotateZ(46deg);opacity: 1}
+    25%{transform: rotateZ(135deg);top:219px;left:413px;opacity: 1}
+    35%{transform: rotateZ(135deg);top: 311px;left: 486px;opacity: 1}
+    40%{transform: rotateZ(47deg);top: 302px;left: 486px;opacity: 1}
+    55%{transform: rotateZ(47deg);top: 181px;left: 589px;opacity: 1}
+    60%{transform: rotateZ(135deg);top: 196px;left: 597px;opacity: 1}
+    65%{transform: rotateZ(135deg);top:251px;left: 629px;opacity: 1}
+    73%{transform: rotateZ(47deg);top:242px;left: 640px;opacity: 1;}
+    99%{transform: rotateZ(46deg);top:170px;left: 700px;opacity: 1;}
+    100%{transform: rotateZ(46deg);top:159px;left: 712px;opacity: 1;}
+}
 
 @keyframes move601{
     0%{width:0;opacity: 1}
@@ -35,12 +48,14 @@
 }
 @keyframes move604{
     0%{width: 0;opacity: 1}
-    100%{width:59px;opacity: 1}
+    100%{width:72px;opacity: 1}
 }
 @keyframes move605{
     0%{width:0px;opacity: 1}
-    3%{width:20px;opacity: 1}
-    100%{width:125px;opacity: 1 }
+    8%{width:20px;opacity: 1}
+    /*58%{width:85px;opacity: 1}*/
+    98%{width:132px;opacity: 1}
+    100%{width:132px;opacity: 1}
 }
 
 
@@ -59,7 +74,7 @@
 .img405{position: absolute;left:644px;top:241px;opacity: 0;z-index:5}
 .img40{position: absolute;left:219px;top:165px;}
 .img50{position: absolute;left:219px;top:165px;}
-.img60{position: absolute;width: 50px;height: 25px;top:268px;left:639px;transform: rotateZ(135deg);opacity: 0;}
+.img60{position: absolute;width: 50px;height: 25px;top:268px;left:639px;transform: rotateZ(135deg);opacity:0;z-index:4}
 
 .show601{position: absolute;top:421px;left:221px;transform-origin:left bottom;transform: rotate(-45deg);height:20px;width:0px;background:white;box-shadow: -10px 10px #0076a6 ;z-index:3;opacity: 0}
 .show602{position: absolute;top:222px;left:410px;transform-origin:left bottom;transform: rotate(45deg);height:20px;width:10px;background:white;box-shadow: 10px 10px #0076a6 ;z-index:3;opacity: 0}
