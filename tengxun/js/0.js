@@ -146,7 +146,6 @@ function bubbling(){
         img0[i].style.transition="all 1s 2s";
     }
     setTimeout(function(){
-        console.log(window.navigator.userAgent.toLowerCase().indexOf("ie")!=-1)
         for(var i=0;i<img0.length;i++){
             if(window.navigator.userAgent.toLowerCase().indexOf("webkit")!=-1){
                 m>30 ? m+=3:m+=5;
