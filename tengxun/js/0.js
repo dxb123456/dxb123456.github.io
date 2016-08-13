@@ -146,8 +146,13 @@ function bubbling(){
         img0[i].style.transition="all 1s 2s";
     }
     setTimeout(function(){
+        console.log(window.navigator.userAgent.toLowerCase().indexOf("ie")!=-1)
         for(var i=0;i<img0.length;i++){
-            m>30 ? m+=3:m+=5;
+            if(window.navigator.userAgent.toLowerCase().indexOf("webkit")!=-1){
+                m>30 ? m+=3:m+=5;
+            }else{
+                m>10 ? m+=3:m+=5;
+            }
             img0[i].style.opacity=1;
             if(i%3==0){
                 img0[i].style.animation=m+'s move3_2 infinite';
