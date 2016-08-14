@@ -323,6 +323,20 @@
             isDown=false;
         });
     }
+    var arr = [
+        'https://dxb123456.github.io/fengruixiang/img/1_02.png',
+        'https://dxb123456.github.io/fengruixiang/img/2_02.png',
+        'https://dxb123456.github.io/fengruixiang/img/3_02.png',
+        'https://dxb123456.github.io/fengruixiang/img/4_02.png',
+        'https://dxb123456.github.io/fengruixiang/img/4_02.png'
+    ];
+    for(var i=0;i<arr.length;i++) {
+        var img = new Image();
+        img.src = arr[i];
+    }
+    img.onload = function(){
+        alert('jiazaiwanbi')
+    }
 
 </script>
 </body>
