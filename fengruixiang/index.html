@@ -5,62 +5,72 @@
     <meta name="keywords" content="" />
     <meta name="description" content=""/>
     <link rel="stylesheet" href="css/index.css" type="text/css"/>
+    <script src="js/mTween.js"></script>
     <title>丰瑞祥首页</title>
 </head>
 <body>
 <div class="w1920">
+  <div class="top1"></div>
   <div class="top">
       <div class="w950">
             <a href="" alt="" class="logo"><p></p></a>
             <ul class="top_list">
-              <li class="list1"><a href="">首页</a></li>
-              <li class="list2"><a href="">产品方案</a></li>
-              <li class="list3"><a href="">新闻</a></li>
-              <li class="list4"><a href="">招聘</a></li>
-              <li class="list5"><a href="">我们</a></li>
+              <li><a href="">首页</a></li>
+              <li class="top_list_hover">
+                  <a href="">产品方案</a>
+                  <ol class="top_ol">
+                      <li>第三方支付</li>
+                      <li>祥付宝</li>
+                      <li>互联网金融</li>
+                  </ol>
+              </li>
+              <li><a href="">新闻</a></li>
+              <li><a href="">招聘</a></li>
+              <li><a href="">我们</a></li>
            </ul>
            <p>商户中心：<a href="">登录</a><span></span><a href="">注册</a></p>
       </div>
   </div>
   <div class="banner">
-      <ul>
-          <li class="on"><a href="javascript:;"><img src="images/banner_02.jpg" alt=""/></a></li>
-          <li><a href="javascript:;"><img src="images/banner_02.jpg" alt=""/></a></li>
-          <li><a href="javascript:;"><img src="images/banner_02.jpg" alt=""/></a></li>
-          <li><a href="javascript:;"><img src="images/banner_02.jpg" alt=""/></a></li>
-      </ul>
-      <ol>
-          <li></li>
+      <div class="banner_box">
+          <ul  id="banner_ul">
+              <li><img src="img/5_02.png" alt=""/></li>
+              <!--<li><a href="javascript:;"><img src="img/4_02.png" alt=""/></a></li>-->
+              <!--<li><a href="javascript:;"><img src="img/3_02.png" alt=""/></a></li>-->
+              <!--<li><a href="javascript:;"><img src="img/2_02.png" alt=""/></a></li>-->
+              <!--<li><a href="javascript:;"><img src="img/1_02.png" alt=""/></a></li>-->
+          </ul>
+      </div>
+      <ol id="banner_ol">
           <li class="on"></li>
           <li></li>
           <li></li>
+          <li></li>
+          <li></li>
       </ol>
+      <span id="banner_left"></span>
+      <span id="banner_right"></span>
    </div>
   <div class="data">
      <div class="w950 position">
          <ul>
-             <li class="data_list1">
-                 <div></div>
+             <li class="data_list">
+                 <img src="img/index/1.png"/>
                  <p>覆盖行业<i>14</i>大类</p>
              </li>
-             <li class="data_list2">
-                 <div></div>
+             <li>
+                 <img src="img/index/2.png"/>
                  <p>支付渠道<i>20+</i>家</p>
              </li>
-             <li class="data_list3">
-                 <div></div>
+             <li>
+                 <img src="img/index/3.png"/>
                  <p>服务客户<i>10万+</i>家</p>
              </li>
-             <li class="data_list4">
-                 <div></div>
+             <li>
+                 <img src="img/index/4.png"/>
                  <p>年交易量<i>1000亿+</i>元</p>
              </li>
          </ul>
-         <ol>
-                 <li><span></span></li>
-                 <li class="technology"><i>科技</i></li>
-                 <li><em>创新</em></li>
-          </ol>
      </div>
   </div>
   <div class="plan w990">
@@ -71,46 +81,56 @@
       <li class="p_center1">
           <div class="w950">
               <img src="images/fer_03.jpg" alt="">
-              <h3>第三方支付</h3>
-              <p>第三方支付是有效整合多种支付手段，方便用户进行便捷支付的系统，我们提供的第三方支付相关业务系统有预付费卡系
-                  统、互联网支付系统、移动支付系统、收单系统、备付金核验系统、风控反洗钱系统等。
-                  </p>
-              <span><a href="" alt="">查看详情></a></span>
-              <b></b>
+              <div class="p_center_text">
+                  <h3>第三方支付</h3>
+                  <p>第三方支付是有效整合多种支付手段，方便用户进行便捷支付的系统，我们提供的第三方支付相关业务系统有预付费卡系
+                      统、互联网支付系统、移动支付系统、收单系统、备付金核验系统、风控反洗钱系统等。
+                      </p>
+                  <span><a href="" alt="">查看详情 ></a></span>
+                  <b></b>
+              </div>
           </div>
       </li>
       <li class="p_center2">
           <div class="w950">
+              <div class="p_center_text1">
+                  <h3>祥付宝</h3>
+                  <p>祥付宝是一款集成微信支付、支付宝支付、百度钱包等<i>万能收银台</i>，其整合线上收单与线下收单。</p>
+                  <span><a href="" alt="">查看详情 ></a></span>
+              </div>
               <img src="images/f_03.jpg" alt="">
-              <h3>祥付宝</h3>
-              <p>祥付宝是一款集成微信支付、支付宝支付、百度钱包等<i>万能收银台</i>，其整合线上收单与线下收单。</p>
-              <span><a href="" alt="">查看详情></a></span>
           </div>
       </li>
       <li class="p_center1">
           <div class="w950">
               <img src="images/fer_11.jpg" alt="">
-              <h3>互联网金融</h3>
-              <p>互联网金融是方便用户通过互联网平台进行金融理财的系统，我们提供的系统有P2P网贷系统、征信系统等。</p>
-              <span><a href="" alt="">查看详情></a></span>
+              <div class="p_center_text">
+                  <h3>互联网金融</h3>
+                  <p>互联网金融是方便用户通过互联网平台进行金融理财的系统，我们提供的系统有P2P网贷系统、征信系统等。</p>
+                  <span><a href="" alt="">查看详情 ></a></span>
+              </div>
           </div>
       </li>
       <li class="p_center2">
           <div class="w950">
+              <div class="p_center_text1">
+                  <h3>祥付宝</h3>
+                  <p>祥付宝是一款集成微信支付、支付宝支付、百度钱包等<i>万能收银台</i>，其整合线上收单与线下收单。</p>
+                  <span><a href="" alt="">查看详情 ></a></span>
+              </div>
               <img src="images/fer_15.jpg" alt="">
-              <h3>祥付宝</h3>
-              <p>祥付宝是一款集成微信支付、支付宝支付、百度钱包等<i>万能收银台</i>，其整合线上收单与线下收单。</p>
-              <span><a href="" alt="">查看详情></a></span>
           </div>
       </li>
-      <li class="p_center3">
+      <li class="p_center1">
           <div class="w950">
               <img src="images/frx_20.jpg" alt="">
-              <h3>第三方支付</h3>
-              <p>第三方支付是有效整合多种支付手段，方便用户进行便捷支付的系统，我们提供的第三方支付相关业务系统有预付费卡系
-                  统、互联网支付系统、移动支付系统、收单系统、备付金核验系统、风控反洗钱系统等。
-              </p>
-              <span><a href="" alt="">查看详情></a></span>
+              <div class="p_center_text">
+                  <h3>第三方支付</h3>
+                  <p>第三方支付是有效整合多种支付手段，方便用户进行便捷支付的系统，我们提供的第三方支付相关业务系统有预付费卡系
+                      统、互联网支付系统、移动支付系统、收单系统、备付金核验系统、风控反洗钱系统等。
+                  </p>
+                  <span><a href="" alt="">查看详情 ></a></span>
+              </div>
           </div>
       </li>
   </ul>
@@ -139,7 +159,7 @@
               <li><a href="">凌动将至？高盛公司这份报告为第三方支付未...<i>NEW</i><em>HOT</em><span>2016-02-16</span></a></li>
               <li><a href="">凌动将至？高盛公司这份报告为第三方支付未...<i>NEW</i><em>HOT</em><span>2016-02-16</span></a></li>
           </ul>
-          <a href="" class="new_more">查看更多></a>
+          <a href="" class="new_more">查看更多 ></a>
       </div>
       <div class="clear"></div>
   </div>
@@ -203,10 +223,107 @@
         </div>
   </div>
 
-
-
-
-
 </div>
+<script>
+    var banner=document.getElementById("banner_ul");
+    var left=document.getElementById('banner_left');
+    var banner_box=banner.parentNode;
+    var last=0;
+    var imgS=banner.getElementsByTagName("img");
+    var a=banner_box.offsetWidth;
+    var right=left.nextElementSibling;
+    var isDown=false;
+//    var lis=banner.querySelectorAll("li");
+    var ary= ['img/5_02.png','img/4_02.png','img/3_02.png','img/2_02.png','img/1_02.png'];
+    var lis=banner.getElementsByTagName("li");
+    var ols=document.getElementById('banner_ol').getElementsByTagName('li');
+    window.onresize=function(){
+        a=banner_box.offsetWidth;
+    }
+    for(var i=0;i<ols.length;i++){
+        ols[i].index=i;
+        ols[i].onclick=function(){
+            if(isDown){
+                return
+            }
+            ols[last].className="";
+            if(this.index>last){
+                f1(last,this.index);
+            }
+            if(this.index<last){
+                f2(last,this.index);
+            }
+            last=this.index;
+            ols[this.index].className="on";
+        }
+    }
+
+    left.onclick=function(){
+        ols[last].className="";
+        var b=last--;
+        if(last<0){
+            last=lis.length-1
+        }
+        ols[last].className="on";
+        f1(last,b);
+    }
+    right.onclick=function(){
+        if(isDown){
+            return;
+        }
+        ols[last].className="";
+        var b=last+1;
+        if(b>ary.length-1){
+            b=0
+        }
+        ols[b].className="on";
+        console.log(last,b)
+        f1(last,b);
+        last=b;
+    }
+    left.onclick=function(){
+        if(isDown){
+            return;
+        }
+        ols[last].className="";
+        var b=last-1;
+        if(b<0){
+            b=ary.length-1
+        }
+        ols[b].className="on";
+        console.log(last,b)
+        f2(last,b);
+        last=b;
+    }
+    function f1(last,new1){
+        isDown=true;
+        var li=document.createElement('li');
+        var img=document.createElement('img');
+        img.src=ary[new1];
+        li.appendChild(img);
+        banner.appendChild(li);
+        mTween(banner,{"left":-1.6*a},500,'easeOutStrong',function(){
+            banner.removeChild(lis[0]);
+            banner.style.left=-0.2*a+'px';
+            console.log(a);
+            isDown=false;
+        })
+    }
+    function f2(last,new1){
+        isDown=true;
+        var li=document.createElement('li');
+        var img=document.createElement('img');
+        img.src=ary[new1];
+        li.appendChild(img);
+        banner.appendChild(li);
+        banner.style.left=-1.6*a+'px';
+        banner.insertBefore(li,lis[0]);
+        mTween(banner,{"left":-0.2*a},500,'easeOutStrong',function(){
+            banner.removeChild(lis[1]);
+            isDown=false;
+        });
+    }
+
+</script>
 </body>
 </html>
