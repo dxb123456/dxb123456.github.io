@@ -1,0 +1,6 @@
+.img0_1,.img0_2,.img0_3,.img0_4,.img0_5{position: absolute;opacity: 0;width: 0;height: 0;}
+#div00 .img0_1{left:490px;top:285px;transition: all 0.3s 0.45s cubic-bezier(0.175, 0.885, 0.320, 1.275);}
+#div00 .img0_2{left:480px;top:250px;transition: all 0.5s 0.01s cubic-bezier(0.175, 0.885, 0.320, 1.275); }
+#div00 .img0_3{left:490px;top:285px;transition: all 0.3s 0.4s cubic-bezier(0.175, 0.885, 0.320, 1.275);}
+#div00 .img0_4{left:490px;top:285px;transition: all 0.3s 0.2s cubic-bezier(0.175, 0.885, 0.320, 1.275);}
+#div00 .img0_5{left:490px;top:285px;transition: all 0.3s 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);}

@@ -1,0 +1,86 @@
+@keyframes move1_1 {
+    0%{opacity: 1;left:720px;top:325px;width:410px;height: 399px;transform-origin: right;transform:perspective(600px) rotateY(-10deg) rotateX(69deg) rotateZ(36deg);)}
+    8%{opacity: 1;left:673px;top:205px;width:438px;height: 442px;transform-origin: right;transform:perspective(600px) rotateY(-40deg) rotateX(50deg) rotateZ(8deg);}
+    16%{opacity: 1;left:675px;top:173px;width:411px;height: 449px;transform-origin: right;transform:perspective(600px) rotateY(-43deg) rotateX(42deg) rotateZ(5deg);)}
+    24%{opacity: 1;left:544px;top:109px;width:438px;height: 481px;transform-origin: right;transform:perspective(600px) rotateY(-53deg) rotateX(10deg) rotateZ(0deg);)}
+    32%{opacity: 1;left:507px;top:98px;;width:440px;height: 500px;transform-origin:right;transform:perspective(600px) rotateY(-55deg);}
+    50%{opacity: 1;left:496px;top:127px;width:437px;height: 480px;transform-origin:right;transform:perspective(600px) rotateY(-55deg) rotateX(-6deg) rotateZ(2deg);}
+    100%{opacity: 1;left:507px;top:98px;;width:440px;height: 500px;transform-origin:right;transform:perspective(600px) rotateY(-55deg);}
+}
+
+@keyframes move1_2{
+    0%{width: 50px;height: 25px;top:420px;left:203px;opacity: 1}
+    20%{top:204px;left:404px;transform: rotateZ(46deg);opacity: 1}
+    25%{transform: rotateZ(135deg);top:219px;left:413px;opacity: 1}
+    35%{transform: rotateZ(135deg);top: 311px;left: 486px;opacity: 1}
+    40%{transform: rotateZ(47deg);top: 302px;left: 486px;opacity: 1}
+    55%{transform: rotateZ(47deg);top: 181px;left: 589px;opacity: 1}
+    60%{transform: rotateZ(135deg);top: 196px;left: 597px;opacity: 1}
+    65%{transform: rotateZ(135deg);top:251px;left: 629px;opacity: 1}
+    70%{transform: rotateZ(47deg);top:242px;left: 640px;opacity: 1}
+    100%{transform: rotateZ(46deg);top:159px;left: 712px;opacity: 1}
+}
+@keyframes move1_9{
+    0%{width: 50px;height: 25px;top:420px;left:203px;opacity: 1}
+    20%{top:204px;left:404px;transform: rotateZ(46deg);opacity: 1}
+    25%{transform: rotateZ(135deg);top:219px;left:413px;opacity: 1}
+    35%{transform: rotateZ(135deg);top: 311px;left: 486px;opacity: 1}
+    40%{transform: rotateZ(47deg);top: 302px;left: 486px;opacity: 1}
+    55%{transform: rotateZ(47deg);top: 181px;left: 589px;opacity: 1}
+    60%{transform: rotateZ(135deg);top: 196px;left: 597px;opacity: 1}
+    65%{transform: rotateZ(135deg);top:251px;left: 629px;opacity: 1}
+    73%{transform: rotateZ(47deg);top:242px;left: 640px;opacity: 1;}
+    99%{transform: rotateZ(46deg);top:170px;left: 700px;opacity: 1;}
+    100%{transform: rotateZ(46deg);top:159px;left: 712px;opacity: 1;}
+}
+
+@keyframes move601{
+    0%{width:0;opacity: 1}
+    100%{width: 294px;opacity: 1}
+}
+@keyframes move602{
+     0%{width: 0;opacity: 1}
+     100%{width:112px;opacity: 1}
+ }
+@keyframes move603{
+    0%{width: 0;opacity: 1}
+    100%{width:160px;opacity: 1}
+}
+@keyframes move604{
+    0%{width: 0;opacity: 1}
+    100%{width:72px;opacity: 1}
+}
+@keyframes move605{
+    0%{width:0px;opacity: 1}
+    8%{width:20px;opacity: 1}
+    /*58%{width:85px;opacity: 1}*/
+    98%{width:132px;opacity: 1}
+    100%{width:132px;opacity: 1}
+}
+
+
+#one_img1{position: absolute;width:927px;height:108px;left:24px;top:535px;opacity:0;}
+#one_img2{position: absolute;left:185px;top:165px;transform-origin:bottom;transform:rotateX(-80deg) skew(-30deg);opacity: 0;}
+#ma1{position: absolute;left:185px;top:154px;z-index:8;opacity: 0;overflow: hidden}
+.mask1{position:absolute;width: 1000px;height: 500px;background-color: white;z-index: 7}
+.mask2{position:absolute;width: 1000px;height: 500px;background-color:#007bac; z-index:5}
+#ma2{position: absolute;left:185px;top:165px;z-index:6;opacity: 0}
+.left_div{position: absolute;border: 1px solid #007aac;background-color: #007aac;transform-origin:right ;opacity: 0;}
+.show1{width:440px;height: 500px;left:507px;top:98px;transform:perspective(600px) rotateY(-55deg);}
+.img401{position: absolute;left:248px;top:247px;opacity: 0;z-index:5}
+.img402{position: absolute;left:335px;top:226px;opacity: 0;z-index:5}
+.img403{position: absolute;left:435px;top:220px;opacity: 0;z-index:5}
+.img404{position: absolute;left:542px;top:226px;opacity: 0;z-index:5}
+.img405{position: absolute;left:644px;top:241px;opacity: 0;z-index:5}
+.img40{position: absolute;left:219px;top:165px;}
+.img50{position: absolute;left:219px;top:165px;}
+.img60{position: absolute;width: 50px;height: 25px;top:268px;left:639px;transform: rotateZ(135deg);opacity:0;z-index:4}
+
+.show601{position: absolute;top:421px;left:221px;transform-origin:left bottom;transform: rotate(-45deg);height:20px;width:0px;background:white;box-shadow: -10px 10px #0076a6 ;z-index:3;opacity: 0}
+.show602{position: absolute;top:222px;left:410px;transform-origin:left bottom;transform: rotate(45deg);height:20px;width:10px;background:white;box-shadow: 10px 10px #0076a6 ;z-index:3;opacity: 0}
+.show603{position: absolute;top:302px;left:500px;transform-origin:left bottom;transform: rotate(-45deg);width:10px;height:20px;background:white;box-shadow: -10px 10px #0076a6 ;z-index:3;opacity: 0}
+.show604{position: absolute;top:202px;left:598px;transform-origin:left bottom;transform: rotate(45deg);width:10px;height:20px;background:white;box-shadow: 10px 10px #0076a6 ;z-index:3;opacity: 0}
+.show605{position: absolute;top:253px;left:649px;transform-origin:left bottom;transform: rotate(-45deg);height:20px;width:20px;background:white;box-shadow: -10px 10px #0076a6 ;z-index:3;opacity: 0}
+/*p标签*/
+.one_2006{font-size: 40px;color: white;position: absolute;top:66px;left:435px;}
+.one_text{font-size: 14px;color: white;text-align: center;position: absolute;top:122px;left:330px;}
