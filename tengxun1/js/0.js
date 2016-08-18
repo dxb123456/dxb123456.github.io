@@ -13,21 +13,21 @@
         $("#one_img2").css({transition:'all 0.5s 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275)',"-webkit-transition":'all 0.5s 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275)',transform:"rotateX(0deg) skew(0deg)","-webkit-transform":"rotateX(0deg) skew(0deg)",opacity:1})
         setTimeout(function(){
             $(".left_div").css({animation: "0.6s move1_1","-webkit-animation": "0.6s move1_1",opacity: 1})
-            $(".img401").css({top:297,opacity:1,transition: 'all 0.2s 0.7s linear',"-webkit-animation": 'all 0.2s 0.7s linear'});
-            $(".img402").css({top:276,opacity:1,transition: 'all 0.2s 0.9s linear',"-webkit-animation": 'all 0.2s 0.9s linear'});
-            $(".img403").css({top:270,opacity:1,transition: 'all 0.3s 1.1s linear',"-webkit-animation": 'all 0.3s 1.1s linear'});
-            $(".img404").css({top:276,opacity:1,transition: 'all 0.2s 1s linear',"-webkit-animation": 'all 0.2s 1s linear'});
-            $(".img405").css({top:297,opacity:1,transition: 'all 0.2s 0.8s linear',"-webkit-animation": 'all 0.2s 0.8s linear'});
-            $("#ma1").css({opacity:1,transition: 'opacity 0s 1s linear',"-webkit-animation": 'opacity 0s 1s linear'});
-            $("#ma2").css({opacity:1,transition: 'opacity 0s 1s linear',"-webkit-animation": 'opacity 0s 1s linear'});
+            $(".img401").css({top:297,opacity:1,transition: 'all 0.2s 0.7s linear',"-webkit-transition": 'all 0.2s 0.7s linear'});
+            $(".img402").css({top:276,opacity:1,transition: 'all 0.2s 0.9s linear',"-webkit-transition": 'all 0.2s 0.9s linear'});
+            $(".img403").css({top:270,opacity:1,transition: 'all 0.3s 1.1s linear',"-webkit-transition": 'all 0.3s 1.1s linear'});
+            $(".img404").css({top:276,opacity:1,transition: 'all 0.2s 1s linear',"-webkit-transition": 'all 0.2s 1s linear'});
+            $(".img405").css({top:297,opacity:1,transition: 'all 0.2s 0.8s linear',"-webkit-transition": 'all 0.2s 0.8s linear'});
+            $("#ma1").css({opacity:1,transition: 'opacity 0s 1s linear',"-webkit-transition": 'opacity 0s 1s linear'});
+            $("#ma2").css({opacity:1,transition: 'opacity 0s 1s linear',"-webkit-transition": 'opacity 0s 1s linear'});
             $(".img60").css({animation: "2s 1s linear move1_9",'animation-fill-mode': "forwards","z-index":"3","-webkit-animation": "2s 1s linear move1_9",'-webkit-animation-fill-mode': "forwards",});
             $(".show601").css({animation: "0.55s 1s move601",'animation-fill-mode': "both","-webkit-animation": "0.55s 1s move601",'-webkit-animation-fill-mode': "both"});
             $(".show602").css({animation: "0.26s 1.6s move602",'animation-fill-mode': "both","-webkit-animation": "0.26s 1.6s move602",'-webkit-animation-fill-mode': "both"});
             $(".show603").css({animation: "0.25s 1.9s move603",'animation-fill-mode': "both","-webkit-animation": "0.25s 1.9s move603",'-webkit-animation-fill-mode': "both"});
             $(".show604").css({animation: "0.25s 2.2s move604",'animation-fill-mode': "both","-webkit-animation": "0.25s 2.2s move604",'-webkit-animation-fill-mode': "both"});
             $(".show605").css({animation: "0.8s 2.5s move605",'animation-fill-mode': "both","-webkit-animation": "0.8s 2.5s move605",'-webkit-animation-fill-mode': "both"});
-            $(".one_2006").css({top:86,opacity:1,transition:"all 0.5s 3s",})
-            $(".one_text").css({top:142,opacity:1,transition:"all 0.5s 3.3s"})
+            $(".one_2006").css({top:86,opacity:1,transition:"all 0.5s 3s",'-webkit-transition':"all 0.5s 3s",})
+            $(".one_text").css({top:142,opacity:1,transition:"all 0.5s 3.3s",'-webkit-transition':"all 0.5s 3.3s"})
         },800);
 
     }
