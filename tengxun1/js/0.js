@@ -32,46 +32,46 @@
 
     }
     function f2(){
-        $('.two_img1').css({transition:"all 0.3s",'transform': "skew(0deg)",opacity:1});
+        $('.two_img1').css({transition:"all 0.3s",'transform': "skew(0deg)",'-webkit-transition':"all 0.3s",'-webkit-transform': "skew(0deg)",opacity:1});
         //$('.two_img2').css({transition:"all 0.3s 0.3s cubic-bezier(0.175, 0.885, 0.320, 1.275)",top:333,opacity:1});
-        $('.two_img2').css({animation:"0.4s 0.5s two_img2",'animation-fill-mode': "both"});
-        $('.two_img3').css({transition:"all 0.3s 1s cubic-bezier(0.175, 0.885, 0.320, 1.275)",top:158,opacity:1});
+        $('.two_img2').css({animation:"0.4s 0.5s two_img2",'animation-fill-mode': "both",'-webkit-animation':"0.4s 0.5s two_img2",'-webkit-animation-fill-mode': "both"});
+        $('.two_img3').css({transition:"all 0.3s 1s cubic-bezier(0.175, 0.885, 0.320, 1.275)",'-webkit-transition':"all 0.3s 1s cubic-bezier(0.175, 0.885, 0.320, 1.275)",top:158,opacity:1});
         //$(".smoke1 img").eq(0).css({transition:"1s 0.7s",left:-30,width:103});
-        $(".smoke1 img").eq(0).css({animation:"0.8s 0.6s smoke1_1"});
-        $(".smoke1 img").eq(1).css({animation:"0.8s 0.6s smoke1_2"});
-        $(".smoke1 img").eq(2).css({animation:"0.8s 0.6s smoke1_3"});
-        $(".smoke2 img").eq(0).css({animation:"0.8s 1.1s smoke2_1"});
-        $(".smoke2 img").eq(1).css({animation:"0.8s 1.1s smoke2_2"});
-        $(".smoke2 img").eq(2).css({animation:"0.8s 1.1s smoke2_3"});
-        $(".smoke3 img").eq(0).css({animation:"0.8s 1.1s smoke2_1"});
-        $(".smoke3 img").eq(1).css({animation:"0.8s 1.1s smoke2_2"});
-        $(".smoke3 img").eq(2).css({animation:"0.8s 1.1s smoke2_3"});
-        $('.arrow1').css({transition:"all 0.2s 1.5s",width: 25,height:36,left: 177,top:593,transform: 'rotateZ(0deg)',opacity:1})
-        $('.arrow2').css({transition:"all 0.2s 1.6s",width: 39,height:78,left: 287,top:570,transform: 'rotateZ(0deg)',opacity:1})
-        $('.arrow3').css({transition:"all 0.2s 1.8s",width: 30,height:42,left: 228,top:539,opacity:1})
-        $('.arrow4').css({transition:"all 0.2s 1.9s",width: 30,height:42,left: 620,top:580,opacity:1})
-        $('.arrow5').css({transition:"all 0.2s 2.0s",width: 37,height:68,left:685,top:518,transform: 'rotateZ(0deg)',opacity:1})
-        $('.arrow6').css({transition:"all 0.2s 2.1s",width: 30,height:42,left: 324,top:500, transform: 'rotateZ(10deg) rotateY(180deg)',opacity:1})
-        $('.arrow7').css({transition:"all 0.3s 2.3s",width: 44,height:95,left: 190,top:549, transform:'rotateZ(-10deg) rotateY(180deg)' ,opacity:1})
-        $(".soldiers_left").css({animation:"1s 2.6s soldiers_left",'animation-fill-mode': "both"})
-        $(".soldiers_right").css({animation:"1s 2.6s soldiers_right",'animation-fill-mode': "both"})
-        $(".soldiers_arrow1").css({transition:"all 0.15s 3.6s",top:517,left:689,width:35,height: 40,transform:"rotateZ(0deg) rotateX(0deg)",opacity:1})
-        $(".soldiers_arrow2").css({transition:"all 0.15s 3.8s",top:508,left: 662,width:37,height: 40,transform:"rotateZ(-22deg) rotateX(-30deg)",opacity:1})
-        $(".mouth").css({transition:"opacity 0s 4.0s",opacity:1})
-        $(".two_2008").css({top:66,opacity:1,transition:"all 0.5s 4.1s",})
-        $(".two_text").css({top:122,opacity:1,transition:"all 0.5s 4.4s"})
+        $(".smoke1 img").eq(0).css({animation:"0.8s 0.6s smoke1_1",'-webkit-animation':"0.8s 0.6s smoke1_1"});
+        $(".smoke1 img").eq(1).css({animation:"0.8s 0.6s smoke1_2",'-webkit-animation':"0.8s 0.6s smoke1_2"});
+        $(".smoke1 img").eq(2).css({animation:"0.8s 0.6s smoke1_3",'-webkit-animation':"0.8s 0.6s smoke1_3"});
+        $(".smoke2 img").eq(0).css({animation:"0.8s 1.1s smoke2_1",'-webkit-animation':"0.8s 1.1s smoke2_1"});
+        $(".smoke2 img").eq(1).css({animation:"0.8s 1.1s smoke2_2",'-webkit-animation':"0.8s 1.1s smoke2_2"});
+        $(".smoke2 img").eq(2).css({animation:"0.8s 1.1s smoke2_3",'-webkit-animation':"0.8s 1.1s smoke2_3"});
+        $(".smoke3 img").eq(0).css({animation:"0.8s 1.1s smoke2_1",'-webkit-animation':"0.8s 1.1s smoke2_1"});
+        $(".smoke3 img").eq(1).css({animation:"0.8s 1.1s smoke2_2",'-webkit-animation':"0.8s 1.1s smoke2_2"});
+        $(".smoke3 img").eq(2).css({animation:"0.8s 1.1s smoke2_3",'-webkit-animation':"0.8s 1.1s smoke2_3"});
+        $('.arrow1').css({transition:"all 0.2s 1.5s",width: 25,height:36,left: 177,top:593,transform: 'rotateZ(0deg)',opacity:1,'-webkit-transition':"all 0.2s 1.5s",'-webkit-transform': 'rotateZ(0deg)'})
+        $('.arrow2').css({transition:"all 0.2s 1.6s",width: 39,height:78,left: 287,top:570,transform: 'rotateZ(0deg)',opacity:1,'-webkit-transition':"all 0.2s 1.6s",'-webkit-transform': 'rotateZ(0deg)'})
+        $('.arrow3').css({transition:"all 0.2s 1.8s",width: 30,height:42,left: 228,top:539,opacity:1,'-webkit-transition':"all 0.2s 1.8s"})
+        $('.arrow4').css({transition:"all 0.2s 1.9s",width: 30,height:42,left: 620,top:580,opacity:1,'-webkit-transition':"all 0.2s 1.9s"})
+        $('.arrow5').css({transition:"all 0.2s 2.0s",width: 37,height:68,left:685,top:518,transform: 'rotateZ(0deg)',opacity:1,'-webkit-transition':"all 0.2s 2.0s",'-webkit-transform': 'rotateZ(0deg)'})
+        $('.arrow6').css({transition:"all 0.2s 2.1s",width: 30,height:42,left: 324,top:500, transform: 'rotateZ(10deg) rotateY(180deg)',opacity:1,'-webkit-transition':"all 0.2s 2.1s",'-webkit-transform': 'rotateZ(10deg) rotateY(180deg)'})
+        $('.arrow7').css({transition:"all 0.3s 2.3s",width: 44,height:95,left: 190,top:549, transform:'rotateZ(-10deg) rotateY(180deg)' ,opacity:1,'-webkit-transition':"all 0.3s 2.3s",'-webkit-transform':'rotateZ(-10deg) rotateY(180deg)' })
+        $(".soldiers_left").css({animation:"1s 2.6s soldiers_left",'animation-fill-mode': "both","-webkit-animation":"1s 2.6s soldiers_left",'-webkit-animation-fill-mode': "both"})
+        $(".soldiers_right").css({animation:"1s 2.6s soldiers_right",'animation-fill-mode': "both","-webkit-animation":"1s 2.6s soldiers_right",'-webkit-animation-fill-mode': "both"})
+        $(".soldiers_arrow1").css({transition:"all 0.15s 3.6s",top:517,left:689,width:35,height: 40,transform:"rotateZ(0deg) rotateX(0deg)",opacity:1,'-webkit-transition':"all 0.15s 3.6s",'-webkit-transform':"rotateZ(0deg) rotateX(0deg)"})
+        $(".soldiers_arrow2").css({transition:"all 0.15s 3.8s",top:508,left: 662,width:37,height: 40,transform:"rotateZ(-22deg) rotateX(-30deg)",opacity:1,'-webkit-transition':"all 0.15s 3.8s",'-webkit-transform':"rotateZ(-22deg) rotateX(-30deg)"})
+        $(".mouth").css({transition:"opacity 0s 4.0s",opacity:1,'-webkit-transition':"opacity 0s 4.0s"})
+        $(".two_2008").css({top:66,opacity:1,transition:"all 0.5s 4.1s",'-webkit-transition':"all 0.5s 4.1s",})
+        $(".two_text").css({top:122,opacity:1,transition:"all 0.5s 4.4s",'-webkit-transition':"all 0.5s 4.4s"})
     }
     function f3(){
-        $(".three6").css({position: 'absolute',top:167,left:88,'z-index':0,transform: 'rotateZ(-180deg)',opacity:0});
+        $(".three6").css({position: 'absolute',top:167,left:88,'z-index':0,transform: 'rotateZ(-180deg)','-webkit-transform': 'rotateZ(-180deg)',opacity:0});
         var btn3 =  $("#list1").children().eq(3)[0];
         clearTimeout(btn3.timer11);
         clearTimeout(btn3.timer33);
         clearInterval(btn3.timer22);
-        $(".three_window").css({transition:"all 0.5s 0.2s",transform: "rotateX(0deg) skew(0deg)"});
-        $(".three_sofa").css({"animation":".5s 0.6s sofa","animation-fill-mode":"both"})
-        $(".three_lamp").css({"animation":".5s 1s lamp","animation-fill-mode":"both"})
-        $(".three_flower").css({"animation":".5s 1.3s flower","animation-fill-mode":"both"})
-        $(".three_girl").css({"animation":".5s 1.5s girl","animation-fill-mode":"both"})
+        $(".three_window").css({transition:"all 0.5s 0.2s",transform: "rotateX(0deg) skew(0deg)",'-webkit-transition':"all 0.5s 0.2s",'-webkit-transform': "rotateX(0deg) skew(0deg)"});
+        $(".three_sofa").css({"animation":".5s 0.6s sofa","animation-fill-mode":"both","-webkit-animation":".5s 0.6s sofa","-webkit-animation-fill-mode":"both"})
+        $(".three_lamp").css({"animation":".5s 1s lamp","animation-fill-mode":"both","-webkit-animation":".5s 1s lamp","-webkit-animation-fill-mode":"both"})
+        $(".three_flower").css({"animation":".5s 1.3s flower","animation-fill-mode":"both","-webkit-animation":".5s 1.3s flower","-webkit-animation-fill-mode":"both"})
+        $(".three_girl").css({"animation":".5s 1.5s girl","animation-fill-mode":"both","-webkit-animation":".5s 1.5s girl","-webkit-animation-fill-mode":"both"})
         setTimeout(function(){
             bubbling();
         },1600);
@@ -80,7 +80,7 @@
             var a=-180;
             btn3.timer22=setInterval(function(){
                 a=a+2;
-                $(".three6").css({"transformOrigin":"414px 415px","transform":"rotateZ("+a+"deg)",opacity:1})
+                $(".three6").css({"transformOrigin":"414px 415px","transform":"rotateZ("+a+"deg)","-webkit-transformOrigin":"414px 415px","-webkit-transform":"rotateZ("+a+"deg)",opacity:1})
                 if(a==0){
                     clearInterval(btn3.timer22);
                 }
@@ -89,42 +89,42 @@
         btn3.timer33=setTimeout(function(){
             $(".three6_mask3").css({opacity:0});
             $(".three_flower").css({'z-index':'0'})
-            $('.three6_mask1').css({transition:"opacity 0.5s 0.5s",opacity:0})
-            $('.three6_mask2').css({transition:"opacity 0.5s 0.5s",opacity:0})
+            $('.three6_mask1').css({transition:"opacity 0.5s 0.5s",'-webkit-transition':"opacity 0.5s 0.5s",opacity:0})
+            $('.three6_mask2').css({transition:"opacity 0.5s 0.5s",'-webkit-transition':"opacity 0.5s 0.5s",opacity:0})
         },4400)
-        $(".three_2010").css({top:76,opacity:1,transition:"all 0.5s 5s"})
-        $(".three_text").css({top:132,opacity:1,transition:"all 0.5s 5.5s"})
+        $(".three_2010").css({top:76,opacity:1,transition:"all 0.5s 5s",'-webkit-transition':"all 0.5s 5s"})
+        $(".three_text").css({top:132,opacity:1,transition:"all 0.5s 5.5s",'-webkit-transition':"all 0.5s 5.5s"})
     }
     function f4(){
-        $('.four_mountain').css({transition:"all 0.4s",'transform-origin':'bottom','transform': "skew(0deg)",opacity:1})
-        $('.four_penguin').css({"animation":".4s 0.4s penguin","animation-fill-mode":"both"})
+        $('.four_mountain').css({transition:"all 0.4s",'transform-origin':'bottom','transform': "skew(0deg)",'-webkit-transition':"all 0.4s",'-webkit-transform-origin':'bottom','-webkit-transform': "skew(0deg)",opacity:1})
+        $('.four_penguin').css({"animation":".4s 0.4s penguin","animation-fill-mode":"both","-webkit-animation":".4s 0.4s penguin","-webkit-animation-fill-mode":"both"})
 
         setTimeout(function(){
             hedge();
-            $(".four_sweat").css({transition:"top 0.6s ",opacity:1,top:207})
+            $(".four_sweat").css({transition:"top 0.6s ",'-webkit-transition':"top 0.6s ",opacity:1,top:207})
         },800)
-        $(".man_center").css({'animation':".2s 1.8s man_center","animation-fill-mode":"both"})
-        $(".center_man3").css({'animation':"1.3s 1.9s man_center3","animation-fill-mode":"both"})
-        $(".man_left").css({'animation':"0.2s 2.6s man_left","animation-fill-mode":"both"})
-        $(".man_right").css({'animation':"0.2s 2.8s man_right","animation-fill-mode":"both"})
-        $(".center_man1").css({animation:'3s 2.4s infinite  man_head '})
-        $(".leftflag").css({animation:'6s 2.5s leftflag infinite alternate'})
-        $(".rightflag").css({animation:'8s 2.7s leftflag infinite alternate'})
+        $(".man_center").css({'animation':".2s 1.8s man_center","animation-fill-mode":"both",'-webkit-animation':".2s 1.8s man_center","-webkit-animation-fill-mode":"both"})
+        $(".center_man3").css({'animation':"1.3s 1.9s man_center3","animation-fill-mode":"both",'-webkit-animation':"1.3s 1.9s man_center3","-webkit-animation-fill-mode":"both"})
+        $(".man_left").css({'animation':"0.2s 2.6s man_left","animation-fill-mode":"both",'-webkit-animation':"0.2s 2.6s man_left","-webkit-animation-fill-mode":"both"})
+        $(".man_right").css({'animation':"0.2s 2.8s man_right","animation-fill-mode":"both",'-webkit-animation':"0.2s 2.8s man_right","-webkit-animation-fill-mode":"both"})
+        $(".center_man1").css({animation:'3s 2.4s infinite  man_head ','-webkit-animation':'3s 2.4s infinite  man_head '})
+        $(".leftflag").css({animation:'6s 2.5s leftflag infinite alternate','-webkit-animation':'6s 2.5s leftflag infinite alternate'})
+        $(".rightflag").css({animation:'8s 2.7s leftflag infinite alternate','-webkit-animation':'8s 2.7s leftflag infinite alternate'})
 
-        $(".four_2012").css({top:60,opacity:1,transition:"all 0.5s 3s",})
-        $(".four_text").css({top:122,opacity:1,transition:"all 0.5s 3.3s"})
+        $(".four_2012").css({top:60,opacity:1,transition:"all 0.5s 3s",'-webkit-transition':"all 0.5s 3s",})
+        $(".four_text").css({top:122,opacity:1,transition:"all 0.5s 3.3s",'-webkit-transition':"all 0.5s 3.3s"})
     }
     function f5(){
-        $('.five_mountain').css({transition:'height 0.2s',height:100})
-        $('.five_bg1').css({transition:'transform 0.3s 0.4s',"transform-origin": "bottom center",transform: "scale(1)"})
-        $('.five_cloud1').css({transition:'transform 0.3s 0.5s',transform: "scale(1)"})
-        $('.five_cloud2').css({transition:'transform 0.3s 0.5s',transform: "scale(1)"})
-        $('.five_logo').css({transition:'transform 0.4s 0.7s',"transform-origin": "bottom center",transform: "scale(1)"})
-        $('.five_bg2').css({transition:'all 0.6s 0.7s',opacity:0.1,animation:"40s infinite bg2"})
-        $('.five_smalllogo').css({animation:'0.6s 1.8s smalllogo',"animation-fill-mode":"both"})
+        $('.five_mountain').css({transition:'height 0.2s','-webkit-transition':'height 0.2s',height:100})
+        $('.five_bg1').css({transition:'transform 0.3s 0.4s',"transform-origin": "bottom center",transform: "scale(1)",'-webkit-transition':'transform 0.3s 0.4s',"-webkit-transform-origin": "bottom center",'-webkit-transform': "scale(1)"})
+        $('.five_cloud1').css({transition:'transform 0.3s 0.5s',transform: "scale(1)",'-webkit-transition':'transform 0.3s 0.5s','-webkit-transform': "scale(1)"})
+        $('.five_cloud2').css({transition:'transform 0.3s 0.5s',transform: "scale(1)",'-webkit-transition':'transform 0.3s 0.5s','-webkit-transform': "scale(1)"})
+        $('.five_logo').css({transition:'transform 0.4s 0.7s',"transform-origin": "bottom center",transform: "scale(1)",'-webkit-transition':'transform 0.4s 0.7s',"-webkit-transform-origin": "bottom center",'-webkit-transform': "scale(1)"})
+        $('.five_bg2').css({transition:'all 0.6s 0.7s',opacity:0.1,animation:"40s infinite bg2",'-webkit-transition':'all 0.6s 0.7s','-webkit-animation':"40s infinite bg2"})
+        $('.five_smalllogo').css({animation:'0.6s 1.8s smalllogo',"animation-fill-mode":"both",'-webkit-animation':'0.6s 1.8s smalllogo',"-webkit-animation-fill-mode":"both"})
 
-        $(".five_2013").css({top:56,opacity:1,transition:"all 0.5s 2.4s",})
-        $(".five_text").css({top:127,opacity:1,transition:"all 0.5s 2.6s"})
+        $(".five_2013").css({top:56,opacity:1,transition:"all 0.5s 2.4s",'-webkit-transition':"all 0.5s 2.4s",})
+        $(".five_text").css({top:127,opacity:1,transition:"all 0.5s 2.6s",'-webkit-transition':"all 0.5s 2.6s"})
 
     }
 
@@ -141,9 +141,15 @@ function bubbling(){
             a-=0.2;
         }
         a+=0.3;
-        img0[i].style.animation="0.8s "+a+'s small_logo1';
-        img0[i].style['animation-fill-mode']='both';
-        img0[i].style.transition="all 1s 2s";
+        try{img0[i].style['-webkit-animation']="0.8s "+a+'s small_logo1';
+            img0[i].style['-webkit-animation-fill-mode']='both';
+            img0[i].style['-webkit-transition']="all 1s 2s";
+        } catch(ev){
+            img0[i].style.animation="0.8s "+a+'s small_logo1';
+            img0[i].style['animation-fill-mode']='both';
+            img0[i].style.transition="all 1s 2s";
+        }
+
     }
     setTimeout(function(){
         for(var i=0;i<img0.length;i++){
@@ -154,13 +160,27 @@ function bubbling(){
             }
             img0[i].style.opacity=1;
             if(i%3==0){
-                img0[i].style.animation=m+'s move3_2 infinite';
+                try{
+                    img0[i].style['-webkit-animation']=m+'s move3_2 infinite';
+                } catch(ev){
+                    img0[i].style.animation=m+'s move3_2 infinite';
+                }
+
             }
             if(i%3==1){
-                img0[i].style.animation=m+'s move3_1 infinite';
+                try{
+                    img0[i].style['-webkit-animation']=m+'s move3_1 infinite';
+                } catch(ev){
+                    img0[i].style.animation=m+'s move3_1 infinite';
+                }
+
             }
             if(i%3==2){
-                img0[i].style.animation=m+'s move3_3 infinite';
+                try{
+                    img0[i].style['-webkit-animation']=m+'s move3_3 infinite';
+                } catch(ev){
+                    img0[i].style.animation=m+'s move3_3 infinite';
+                }
             }
         }
     },2000)

@@ -1,4 +1,4 @@
-.three_window{position: absolute;top:184px;left:374px;transform-origin: bottom;transform: rotateX(90deg) skew(-30deg);}
+.three_window{position: absolute;top:184px;left:374px;transform-origin: bottom;transform: rotateX(90deg) skew(-30deg);-webkit-transform-origin: bottom;-webkit-transform: rotateX(90deg) skew(-30deg)}
 .three_flower,.three_sofa,.three_girl,.three_lamp{position: absolute;opacity: 0}
 @keyframes lamp {
     0%{opacity: 0;top:207px;left:177px;width: 106px;height: 325px;}
@@ -21,12 +21,34 @@
     70%,80%{opacity: 1;top:340px;height:296px;width: 128px;left:447px}
     100%{opacity: 1;top:330px;left:447px;width:128px;height:316px;}
 }
+
+@-webkit-keyframes lamp {
+    0%{opacity: 0;top:207px;left:177px;width: 106px;height: 325px;}
+    60%,80%{opacity: 1;top:317px;height:305px;width: 126px;left:167px}
+    100%{opacity: 1;top:297px;left:177px;width: 106px;height: 325px; }
+}
+@-webkit-keyframes sofa {
+    0%{opacity: 0;top:400px;left:255px;width: 505px;height: 219px;}
+    60%,80%{opacity: 1;top:470px;height:209px;width: 545px;left:235px}
+    100%{opacity: 1;top:460px;left:255px;width: 505px;height: 219px; }
+}
+@-webkit-keyframes flower {
+    0%{opacity: 0;top:362px;left:733px;width: 124px;height: 194px;}
+    60%,80%{opacity: 1;top:450px;height:184px;width: 134px;left:728px}
+    100%{opacity: 1;top:440px;left:733px;width:124px;height: 194px;}
+}
+@-webkit-keyframes girl {
+    0%{opacity: 0;top:270px;left:447px;width: 128px;height: 316px;}
+    1%{opacity: 1;top:270px;left:447px;width: 128px;height: 316px;}
+    70%,80%{opacity: 1;top:340px;height:296px;width: 128px;left:447px}
+    100%{opacity: 1;top:330px;left:447px;width:128px;height:316px;}
+}
 .three_lamp{z-index: 5}
 .three_girl{z-index:8}
 .three_sofa{z-index: 7}
 .three_flower{z-index:3}
 
-.three6{position: absolute;top:167px;left:88px;z-index:0;transform: rotateZ(-180deg);opacity:0;}
+.three6{position: absolute;top:167px;left:88px;z-index:0;transform: rotateZ(-180deg);-webkit-transform: rotateZ(-180deg);opacity:0;}
 .three6_mask1{position: absolute;background-color: #09c;top:653px;height: 155px;width:166px;left:90px;z-index:3;opacity: 1}
 .three6_mask2{position: absolute;background-color: #09c;top:653px;height: 300px;width:300px;left:616px;z-index:2;opacity: 1}
 .three6_mask3{position: absolute;background-color: #09c;top:509px;height: 230px;width:200px;left:800px;z-index:2;opacity: 1}
@@ -41,13 +63,13 @@
 #small_logo img:nth-of-type(6){position: absolute;top:147px;left:368px;width:65px;height: 65px;opacity: 0}
 
 @keyframes small_logo1 {
-    0%{opacity:1;transform: scale(0)}
-    50%{opacity:1;transform: scale(0.2)}
-    60%{opacity:1;transform: scale(0.7)}
-    70%{opacity:1;transform: scale(1.5)}
-    85%{opacity:1;transform: scale(0.9)}
-    100%{opacity:1;transform: scale(1)}
-}
+     0%{opacity:1;transform: scale(0)}
+     50%{opacity:1;transform: scale(0.2)}
+     60%{opacity:1;transform: scale(0.7)}
+     70%{opacity:1;transform: scale(1.5)}
+     85%{opacity:1;transform: scale(0.9)}
+     100%{opacity:1;transform: scale(1)}
+ }
 @keyframes move3_1 {
     0%{ transform:translate(0px,0px);}
     10%{transform: translate(-10px,-10px)}
@@ -77,4 +99,45 @@
     75%{transform: translate(-10px,0px)}
     90%{transform: translate(10px,-10px)}
     100%{transform: translate(0px,0px)}
+}
+
+
+
+@-webkit-keyframes small_logo1 {
+    0%{opacity:1;-webkit-transform: scale(0)}
+    50%{opacity:1;-webkit-transform: scale(0.2)}
+    60%{opacity:1;-webkit-transform: scale(0.7)}
+    70%{opacity:1;-webkit-transform: scale(1.5)}
+    85%{opacity:1;-webkit-transform: scale(0.9)}
+    100%{opacity:1;-webkit-transform: scale(1)}
+}
+@-webkit-keyframes move3_1 {
+    0%{ -webkit-transform:translate(0px,0px);}
+    10%{-webkit-transform: translate(-10px,-10px)}
+    25%{-webkit-transform: translate(-10px,+10px)}
+    45%{-webkit-transform: translate(10px,-10px)}
+    60%{-webkit-transform:translate(-10px,-10px)}
+    75%{-webkit-transform: translate(0px,-10px)}
+    90%{-webkit-transform: translate(-10px,10px)}
+    100%{-webkit-transform: translate(0px,0px)}
+}
+@-webkit-keyframes move3_2 {
+    0%{ -webkit-transform:translate(0px,0px);}
+    10%{-webkit-transform: translate(5px,5px)}
+    25%{-webkit-transform: translate(10px,-10px)}
+    45%{-webkit-transform: translate(-10px,10px)}
+    60%{-webkit-transform:translate(10px,10px)}
+    75%{-webkit-transform: translate(10px,0px)}
+    90%{-webkit-transform: translate(10px,-10px)}
+    100%{-webkit-transform: translate(0px,0px)}
+}
+@-webkit-keyframes move3_3 {
+    0%{ -webkit-transform:translate(0px,0px);}
+    10%{-webkit-transform: translate(-5px,-5px)}
+    25%{-webkit-transform: translate(-10px,-10px)}
+    45%{-webkit-transform: translate(-10px,10px)}
+    60%{-webkit-transform:translate(10px,-10px)}
+    75%{-webkit-transform: translate(-10px,0px)}
+    90%{-webkit-transform: translate(10px,-10px)}
+    100%{-webkit-transform: translate(0px,0px)}
 }
