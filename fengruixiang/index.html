@@ -36,10 +36,6 @@
       <div class="banner_box">
           <ul  id="banner_ul">
               <li><img src="img/5_02.png" alt=""/></li>
-              <!--<li><a href="javascript:;"><img src="img/4_02.png" alt=""/></a></li>-->
-              <!--<li><a href="javascript:;"><img src="img/3_02.png" alt=""/></a></li>-->
-              <!--<li><a href="javascript:;"><img src="img/2_02.png" alt=""/></a></li>-->
-              <!--<li><a href="javascript:;"><img src="img/1_02.png" alt=""/></a></li>-->
           </ul>
       </div>
       <ol id="banner_ol">
@@ -74,7 +70,7 @@
          </ul>
      </div>
   </div>
-  <div class="plan w990">
+  <div class="plan w950">
       <h2>产品与方案</h2>
       <span>PRODUCT & SOLUTION</span>
   </div>
@@ -136,12 +132,12 @@
       </li>
   </ul>
   <div class="new">
-      <div class="w970">
+      <div class="w950">
             <p class="new_top">新闻中心<em>NEWS</em></p>
           <span class="triangle"></span>
       </div>
   </div>
-  <div class="new_center w970">
+  <div class="new_center w950">
       <div class="new_left ">
           <img src="images/new_03.jpg" alt="">
           <div><i>2016-06-16</i>
@@ -165,7 +161,7 @@
       <div class="clear"></div>
   </div>
   <div class="partner w1920">
-      <div class="w970">
+      <div class="w950">
           <p class="new_top wid">合作伙伴<em>PARTNERS</em></p>
           <span class="triangle"></span>
       </div>
@@ -192,7 +188,7 @@
       </div>
   </div>
   <div class="footer w1920">
-      <div class="w990">
+      <div class="w950">
           <ul class="footer_top">
               <li><a href="">产品与方案</a></li>
               <li><a href="">新闻</a></li>
@@ -200,7 +196,7 @@
               <li><a href="">我们</a></li>
           </ul>
       </div>
-      <div class="footer_left w990">
+      <div class="footer_left w950">
           <div class="ewm1">
               <a href=""><img  src="images/ewm_03.jpg"></a>
               <p><a href="">微信公众号</a></p>
@@ -303,7 +299,7 @@
         img.src=ary[new1];
         li.appendChild(img);
         banner.appendChild(li);
-        mTween(banner,{"left":-1.6*a},500,'easeOutStrong',function(){
+        mTween(banner,{"left":-1.6*a},500,'linear',function(){
             banner.removeChild(lis[0]);
             banner.style.left=-0.2*a+'px';
             console.log(a);
