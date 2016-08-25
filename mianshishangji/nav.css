@@ -1,0 +1,191 @@
+*{margin: 0;padding: 0;font-family: "微软雅黑"}
+ul,ol {list-style: none}
+a{text-decoration: none}
+html{width:100%}
+body{width: 100%}
+.clear{clear: both}
+.left{float: left}
+.right{float: right}
+.block1{display: block}
+.nav_active{color:#09f;cursor: pointer}
+.box_shadow{
+    box-shadow: 0 2px 2px #ccc;
+}
+nav{
+    width: 100%;
+    height: 65px;
+    border-bottom:1px solid #e7e7e7 ;
+}
+.w1140{
+    width: 1140px;
+    margin: 0 auto;
+}
+.nav_ul{
+    margin-top: 10px;
+    font-size: 0;
+    float:right;
+}
+.nav_ul li{
+    display: inline-block;
+    padding-bottom:8px;
+}
+.nav_ul li a{
+    color:#333333;
+    font-size: 16px;
+    line-height:20px;
+    padding:15px;
+    display: block
+}
+.nav_ul li a:hover{
+    color:#337ab7
+}
+/* nav结束*/
+.nav_box{
+    width: 100%;
+    height: 320px;
+    position: fixed;
+    overflow: hidden;
+    left:0;
+    top:67px;}
+.nav_box>div{
+    width: 1208px;
+    height: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    margin: auto;
+    transition: 0.4s;
+    display: none;
+}
+
+.nav_box1 ul{
+    font-size: 0;
+    position: absolute;
+    left:-37px;
+    margin-top:50px;
+}
+.nav_box1 ul li{
+    float: left;
+    margin-left: 37px;
+}
+.nav_box1 ul li img{
+    width: 274px;
+    height:172px;
+}
+.nav_box1 ul li p{
+    font-size:16px;
+    line-height:60px;
+    text-align: center
+}
+
+.nav_box2 h3{
+    display: inline-block;
+    line-height: 105px;
+    margin:0 52px 0 13px;
+    font-size: 28px;
+}
+.nav_box2 .nav_tab{
+    margin-left: 12px;
+    width: 667px;
+    height: 215px;
+    display: none;
+}
+.nav_box2 .nav_tab img{
+    width: 236px;
+    height: 126px;
+    float: left;
+}
+.nav_box2 .nav_tab .nav_right{
+    width:400px;
+    float: right;
+}
+.nav_box2 .nav_tab .nav_right h4{
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+.nav_box2 .nav_tab .nav_right p{
+    line-height: 22px;
+    font-size: 16px;
+}
+.nav_more{
+    display:inline-block;
+    width: 160px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #09f;
+    color:#fff;
+    border-radius: 4px;
+    position: absolute;
+    right:222px;
+    bottom:87px;
+}
+.nav_more:hover{
+    text-decoration: underline;
+}
+
+.nav_box3 h3{
+    line-height: 28px;
+    margin:39px 0 17px 13px;
+    font-size: 28px;
+}
+.nav_box3>p{
+    line-height: 18px;
+    margin:0 0 26px 13px;
+    font-size: 18px;
+}
+.nav_box3 .nav_tab .nav_right p{
+    line-height: 29px;
+    font-size: 16px;
+    margin-top: 11px;
+}
+.nav_box5 .nav_tab{
+    width: 580px;
+}
+.nav_box5 h3{
+    font-weight: normal;
+    font-size: 24px;
+    margin-right: 30px;
+}
+.nav_box5 .nav_tab .nav_right{
+    width: 320px;
+}
+.nav_box5 .nav_tab .nav_right h4{
+    font-weight: normal;
+    font-size: 24px;
+}
+.nav_box5_right{
+    width: 486px;
+    margin-top: 26px;
+}
+.nav_box5_right span{
+    line-height: 60px;
+    font-size: 22px;
+    font-weight:900;
+}
+.nav_box5_right p{
+    margin: 0 0 10px;
+}
+.nav_box5>a{
+    bottom:33px;
+    right:33px;
+ }
+
+@keyframes m0 {
+    0%{transform-origin: left top;transform: scale(1)}
+    100%{transform-origin: left top;transform: scale(0);}
+}
+@keyframes m1 {
+    0%{transform-origin: left bottom;transform: scale(0)}
+    100%{transform-origin: left bottom;transform: scale(1);}
+}
+@keyframes m3 {
+    0%{transform-origin: left bottom;transform: scale(1)}
+    100%{transform-origin: left bottom;transform: scale(0);}
+}
+@keyframes m4 {
+    0%{transform-origin: left top;transform: scale(0)}
+    100%{transform-origin: left top;transform: scale(1);}
+}
