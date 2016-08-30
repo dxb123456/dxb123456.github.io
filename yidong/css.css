@@ -4,10 +4,10 @@ section{width:100%;height: 100%;position: relative;}
 .bg{width: 4.29rem;height: 4.29rem; border:1px solid #1f2b57;background-color: #233264;position: absolute;top:50%;left:50%;margin:-2.14rem 0 0 -2.14rem;border-radius: 50%;box-shadow: 0 0 0 1.13rem #283972,0 0 0 1.14rem #223161,0 0 0 1.93rem #2a3d79,0 0 0 2.54rem #2c3f7e,0 0 0 2.55rem #2a3c79;}
 .bg_color{background-color: #2d4081}
 
-.header{width:100%;height: 0.4rem;position: absolute;top: 0;left:0;background-color: #181818}
-.nav{width:100%;height: 0.8rem;position: absolute;top: 0.4rem;left:0;background-color: #fff;z-index: 1}
+/*.header{width:100%;height: 0.4rem;position: absolute;top: 0;left:0;background-color: #181818}*/
+/*.nav{width:100%;height: 0.8rem;position: absolute;top: 0.4rem;left:0;background-color: #fff;z-index: 1}*/
 .bg_img{width: 100%;height: 100%;position: relative;}
-.bg_img img{width: 100%;height: 100%}
+.bg_img img{width: 100%;height: 100%;position: absolute;top:0;left:0}
 .arrow{width: 0.9rem;height: 0.65rem;text-align: center;position: absolute;bottom:1.05rem;left:2.75rem}
 .arrow img{width: 100%;height: 100%;}
 .text0{
@@ -39,16 +39,20 @@ section{width:100%;height: 100%;position: relative;}
     position:absolute;
     left:0.9rem;
     bottom:1.5rem;
+    z-index:1;
+    overflow: hidden;
     /*background-color: yellow;*/
 }
 .loading_in{
     width: 2rem;
     height:0.25rem;
     border-radius: 0.25rem;
+    border: 0.03rem solid #4091dc;
     position:absolute;
-    left:0.93rem;
-    bottom:1.53rem;
+    left:0.9rem;
+    bottom:1.5rem;
     background-color: #4091dc;
+
 }
 .loading_scale{
     font-size:0.2rem;
